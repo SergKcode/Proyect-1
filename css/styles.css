@@ -169,9 +169,10 @@ a{
     text-decoration: none;
   }
 
-/* Footer */
+/* FOOTER */
+
 footer{
-    border: 1px solid yellow;
+    /*border: 1px solid yellow;*/
     padding: 50px;
     background-color: #000;
     color: white;
@@ -181,20 +182,48 @@ footer{
     justify-content: space-around;
     flex-direction: row;
     padding: 10px;
-    border: 1px solid blue;
+    /*border: 1px solid blue;*/
 }
+
+
+
 /*Footer left*/
 .footer-left {
-    margin-right: 1.25em;
-    margin-bottom: 2em;
-    border: 1px solid green;
+    box-sizing: border-box;
+    padding: 50px;
+    width: 600px;
+    /*border: 1px solid green;*/
 
 }
-.footer-left img {
-    width: 50%;
-    padding-top: 35px;
+/*Footer left sponsors*/
+.footer-left-sponsors {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    flex: row wrap;
+    /*border: 1px  solid red;*/
+    box-sizing: border-box;
+    width: 500px;
 }
 
+#sponsor-1{
+    width: 100px;
+    height: 19px;
+    /*border: 1px solid red;*/
+}
+#sponsor-2{
+    box-sizing: border-box;
+    width: 37px;
+    height: 50px;
+}
+
+#sponsor-3{
+    box-sizing: border-box;
+    width: 75px;
+    height: 45px;
+    }
+    
+}
 .footer ul{
     list-style: none;
     padding-left: 0;
@@ -210,7 +239,7 @@ footer{
     justify-content: space-around;
     flex-direction: row;
     padding: 5px 50px;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
 
 }
 
@@ -220,19 +249,27 @@ footer{
 .footer-bottom {
     display: flex;
     justify-content: space-around;
+    /*border: 1px dotted red;*/
+    margin-top: 30px;
 }
 .footer-bottom-left {
     text-align: left;
-    padding-top: 70px;
+    padding-top: 5px;
     box-sizing: border-box;
+    /*border: 1px dotted blue*/
 }
 .footer-bottom-right {
     text-align: right;
-    padding-top: 70px;
+    padding-top: 5px;
     box-sizing: border-box;
+    /*border: 1px dotted green;*/
 
 }
 
+.fa {
+    padding: 5px;
+    color:white;
+}
 /*@media screen and (min width: 600px){
 
 }*/
