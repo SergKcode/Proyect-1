@@ -4,9 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/styles.css" rel="stylesheet" type="text/css" />
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     <title>BOXPARK</title>
 </head>
 <body>
-    <h1>hello</h1>
+  <!-- Manu -->
+  <div class = "header">
+    <header class = "logo"></header>
+    <nav class = "nav">
+        <ul class= "navList">
+            <li><img src=""> </li>
+            <li><a class = "navA" href="#">HOME</a></li>
+            <li><a class = "navA" href="boxPark.html">BOXPARK</a></li>
+            <li><a class = "navA" href="#">PACKS</a></li>
+            <li><a class = "navA" href="#">CONTACTO</a></li>
+        </ul>
+    </nav>
+</div>
+    <!--footer -->
+ <div id="footer-placeholder">
+
+ </div>
+    
+    
+    <!--Estas líneas de código me permiten reusar el código que contiene footer.html-->
+    <script>
+    $(function(){
+      $("#footer-placeholder").load("footer.html");
+    });
+    </script>
+    <!--end of footer -->
 </body>
 </html>

@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BOXMad</title>
     <link href="css/styles.css" rel="stylesheet" type="text/css" />
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
     <!--Estos es para los iconos de los socials-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -17,10 +19,10 @@
         <nav class = "nav">
             <ul class= "navList">
                 <li><img src=""> </li>
-                <li><a class = "navA" href="#">IHOME</a></li>
-                <li><a class = "navA" href="#">IBOXPARK</a></li>
-                <li><a class = "navA" href="#">IPACKS</a></li>
-                <li><a class = "navA" href="#">ICONTACTO</a></li>
+                <li><a class = "navA" href="#">HOME</a></li>
+                <li><a class = "navA" href="boxPark.html">BOXPARK</a></li>
+                <li><a class = "navA" href="#">PACKS</a></li>
+                <li><a class = "navA" href="#">CONTACTO</a></li>
             </ul>
         </nav>
     </div>
@@ -64,78 +66,19 @@
             <div class="img-box img-container img-three"></div>
         </div>
     </div>
-   
 
-  <!--Javi-->
-  <footer class="footer">
-    <div class="footer-container">
-      <!--Hay dos contenedores principales dentro del footer left y rigth-->
-    
-      <!--footer left-->
-      <div class="footer-left">
-        <div class="footer-left-logo">
-          <img src="img/boxpark-logo-small.png" alt="#" id="logo-footer">  <!--Logo goes here-->
-        </div>
-        <div class="footer-left-sponsors">
-          <h4>Sponsors</h4>
-          <div class="sponsor-1">
-            <img src="img/madrid-logo.png" alt="" id="sponsor-1">
-          </div>
-          <div class="sponsor-2">
-            <img src="img/comunidad-logo.png" alt="" srcset="" id="sponsor-2">
-          </div>
-          <div class="sponsor-3">
-            <img src="img/aperol-logo.png" alt="" srcset="" id="sponsor-3">
-          </div>
-        </div>
-      </div>
-      
-        <!--Footer right-->
-      <ul class="footer-right"> 
-        <li>
-          <h3>Quick Links</h3>
-        
-          <ul class="footer-box">
-            <li><a href="#"></a>Contact us</li>
-            <li><a href="#"></a>Become a partner</li>
-            <li><a href="#"></a>About us</li>
-            <li><a href="#"></a>Events</li>
-          </ul>
-        </li>
-        <li>
-          <h3>Contact us</h3>
-        
-          <ul class="footer-box">
-            <li><i class="fa fa-map-marker" aria-hidden="true"></i>Av. de Concha Espina, 1</li>
-            <li><i class="fa fa-phone" aria-hidden="true"></i>123 456 789</li>
-            <li><i class="fa fa-envelope" aria-hidden="true"></i>boxpark@Madbox.com</li>
-            <li><a href="#"></a>Events</li>
-          </ul>
-        </li>
-        <div class="location-map">
-          <h3>Location</h3>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12144.017759916967!2d-3.6883337!3d40.4530387!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa8fff6d26e2b1988!2sSantiago%20Bernab%C3%A9u%20Stadium!5e0!3m2!1sen!2ses!4v1615912506791!5m2!1sen!2ses" width="100" height="100" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-        </div> 
-        <li class="socials">
-          <h3>Follow</h3>
-        
-          <ul class="footer-socials">
-            <li><a href="#"><i class="fa fa-facebook"></i></a> Facebook</li>
-            <li><a href="#"><i class="fa fa-twitter"></i></a>Twitter</li>
-            <li><a href="#"><i class="fa fa-youtube"></i></a>Youtube</li>
-            <li><a href="#"><i class="fa fa-instagram"></i></a>Instagram</li>
-          </ul>
-        </li>    
-      </ul>
-    </div>
-    <div class="footer-bottom">
-      <div class="footer-bottom-left">
-        <p><span>All rights reserved</span></p>
-      </div>
-      <div class="footer-bottom-right">
-        <p>Made with<span aria-label="love" class="gamut-8vrj74-HeartContainer e199n3s10">️❤️</span> in Madrid &copy;Madbox 2021</p>
-      </div>
-    </div>
-  </footer>
+    <!--JAVI footer -->
+<div id="footer-placeholder">
+
+</div>
+
+
+<!--Estas líneas de código me permiten reusar el código que contiene footer.html-->
+<script>
+$(function(){
+  $("#footer-placeholder").load("footer.html");
+});
+</script>
+<!--end of footer -->
   </body>
 </html>
