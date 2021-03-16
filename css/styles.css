@@ -31,7 +31,7 @@ body{
     font-family: "MonserratFontCustom";
 
 }
-h2{
+h2 h1{
     margin:0px;
 }
 
@@ -42,7 +42,6 @@ a{
     text-decoration: none;
 }
 
-
 #content{
     display: flex;
     flex-flow: row wrap;
@@ -50,27 +49,35 @@ a{
     width: 100%;
     margin:20px;
 }
-
-
-#main-img{
+#header-container{
     width: 100%;
-    background-image: url("../img/adventure.jpg");
-    height: 700px;
-    background-size: 100%;
-    background-position: -100px -500px;
+    margin: 0px;
     text-align: center;
-    line-height: 700px;
+    height: 700px;
     font-size:30px;
     text-shadow: 0 0px 15px #000;
+    line-height: 700px;
+    width: 100%;
+    background-image: url("../img/adventure.jpg");
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 0px;
     
+
 }
+
+
 
 #title{
     color: #FEFEFE;
     font-family: "MonserratBold";
     transition: all 300ms;
+   
 
 }
+
 #title:hover{
     transform: scale(1.15);
 }
@@ -84,40 +91,35 @@ a{
     height: 500px;
     margin: 20px;
 }
-
-.img-one{
-    background-image: url("../img/boxParkMain.jpg");
+.img-container{
     width: 40%;
-    background-size: 100% 100%;
-    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 
 }
-.img-two{
-    background-image: url("../img/surfmain.jpg");
-    width: 40%;
-    background-size: 100% 100%;
-    background-repeat:no-repeat;
-    
 
+.img-one{
+    background-image: url("../img/boxPark.jpg");
+}
+.img-two{
+    background-image: url("../img/surf.jpg");
 }
 
 .img-three{
     background-image: url("../img/climbing2.jpg");
-    width: 40%;
-    background-size: 100% 100%;
-    background-repeat:no-repeat;
-
 }
+
 .box{
     position: absolute;
-    z-index: 10;
+    z-index: 1;
     width:40%;
     box-shadow: 0px 2px 18px 0px rgb(0 0 0 / 30%);
     background-color: #FFFFFF;
     margin-top: 30px;
     min-height: 300px;
-    margin-left: -800px;
-    padding: 10px;
+    margin-left: -50%;
+    padding: 2%;
     transition: all 300ms;
 
 }
@@ -148,7 +150,7 @@ a{
 
 /* FIN ESTILOS CONTENIDO INDEX */
 
-ul{
+.navList{
     display: flex;
     justify-content: space-around;
     background: #000000;
@@ -157,44 +159,80 @@ ul{
     list-style: none;
 }
 
+#header{
+    margin: 0px;
 
-a {
+}
+
+.navA {
     color: #cccccc;
+    text-decoration: none;
   }
 
-/* Javi */
-/* Javi */
+/* Footer */
 footer{
-    background: #637d96;
+    border: 1px solid yellow;
+    padding: 50px;
+    background-color: #000;
+    color: white;
+}
+.footer-container{
     display: flex;
+    justify-content: space-around;
     flex-direction: row;
-    width: 100%;
-    /*border: 1px solid red;*/
-  }
-  
-  /*  .footer-left {
+    padding: 10px;
     border: 1px solid blue;
-  }*/
-  
-  .footer-right {
+}
+/*Footer left*/
+.footer-left {
+    margin-right: 1.25em;
+    margin-bottom: 2em;
+    border: 1px solid green;
+
+}
+.footer-left img {
+    width: 50%;
+    padding-top: 35px;
+}
+
+.footer ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+.footer a{
+    text-decoration: none;
+}
+/*Footer Right*/
+.footer-right {
+    width: 50%;
     display: flex;
+    justify-content: space-around;
     flex-direction: row;
-    /*border: 3px solid yellow;*/
-  }
-  /*.footer-container {
-    
-  
-  }
-  
-  /*
-  .info {
-    border: 1 solid red
-  }
-  .social {
-    border: 2px solid black
-  }
-  .location {
+    padding: 5px 50px;
     border: 1px solid red;
-  } 
-  
-  */
+
+}
+
+
+
+/* Footer bottom*/
+.footer-bottom {
+    display: flex;
+    justify-content: space-around;
+}
+.footer-bottom-left {
+    text-align: left;
+    padding-top: 70px;
+    box-sizing: border-box;
+}
+.footer-bottom-right {
+    text-align: right;
+    padding-top: 70px;
+    box-sizing: border-box;
+
+}
+
+/*@media screen and (min width: 600px){
+
+}*/
