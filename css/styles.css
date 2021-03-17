@@ -218,11 +218,11 @@ a{
     padding: 7px;
     height: 70px;
     list-style: none;
+    align-items: center;
 }
 
 #header{
     margin: 0px;
-
 }
 
 .navA {
