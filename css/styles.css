@@ -42,6 +42,7 @@ a{
     text-decoration: none;
 }
 
+
 #content{
     display: flex;
     flex-flow: row wrap;
@@ -49,7 +50,7 @@ a{
     width: 100%;
     margin:20px;
 }
-#header-container{
+.header-container{
     width: 100%;
     margin: 0px;
     text-align: center;
@@ -58,16 +59,19 @@ a{
     text-shadow: 0 0px 15px #000;
     line-height: 700px;
     width: 100%;
-    background-image: url("../img/adventure.jpg");
+    
     height: 100%;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     padding: 0px;
-    
 
 }
 
+.index-img{
+    background-image: url("../img/adventure.jpg");
+
+}
 
 
 #title{
@@ -150,6 +154,63 @@ a{
 
 /* FIN ESTILOS CONTENIDO INDEX */
 
+/* ----------------ESTILOS PACK-CURSOS------------- */
+.pack-img{
+    background-image: url("../img/skate.jpg");
+}
+
+#promo-container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.optional-activities{
+    display: flex;
+    flex-direction: row wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
+.main-activity{
+    font-family: "MonserratBold" ;
+    font-size: 20px;
+    color: #637D96;
+    padding: 20px;
+    border-bottom: 1px solid #637D96;
+    transition: all 300ms;
+
+    
+}
+.main-activity:hover{
+    font-size: 25px;
+    color: #000000;
+    border-bottom: 3px solid #000000;
+    
+    
+}
+
+
+.activity-type{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+#activity-description{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+/* --------------FIN CONTENIDOS CURSOS---------------- */
+
 .navList{
     display: flex;
     justify-content: space-around;
@@ -157,11 +218,11 @@ a{
     padding: 7px;
     height: 70px;
     list-style: none;
+    align-items: center;
 }
 
 #header{
     margin: 0px;
-
 }
 
 .navA {

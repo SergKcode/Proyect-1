@@ -1,0 +1,155 @@
+/* FUENTES */
+
+@font-face{
+    font-family: "MonserratFontCustom";
+    src: url("fonts/Montserrat/Montserrat-Regular.ttf");
+}
+
+@font-face{
+    font-family: "MonserratBold";
+    src: url("fonts/Montserrat/Montserrat-BoldItalic.ttf");
+}
+
+@font-face{
+    font-family: "icons";
+    src: url("fonts/web-symbols/websymbols-regular-webfont.svg#WebSymbolsRegular") format('svg'),
+        url("fonts/web-symbols/websymbols-regular-webfont.eot");
+    src: url("fonts/web-symbols/websymbols-regular-webfont.eot#iefix") format("embedded-opentype"),
+        url("fonts/web-symbols/websymbols-regular-webfont.woff") format("woff"),
+        url("fonts/web-symbols/websymbols-regular-webfont.ttf") format("truetype");  
+    font-weight:normal;
+    font-style:normal;
+}
+
+
+/* RESET */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+
+/* NAV */
+#header{
+    margin: 0px;
+    width: 100%;
+    border: 1px solid red;
+
+}
+
+.navList{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background: #000000;
+    padding: 7px;
+    height: 70px;
+    list-style: none;
+}
+
+.main-activity{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+.logo-act{
+    padding-right: 10px;
+}
+
+.navA {
+    color: #cccccc;
+    text-decoration: none;
+  }
+
+/* FIN NAV */
+/* CONTENIDO */
+
+
+
+
+
+/* FIN ESTILOS CONTENIDO*/
+
+/* Footer */
+footer{
+    border: 1px solid yellow;
+    padding: 50px;
+    background-color: #000;
+    color: white;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 10px;
+    border: 1px solid blue;
+}
+/*Footer left*/
+.footer-left {
+    margin-right: 1.25em;
+    margin-bottom: 2em;
+    border: 1px solid green;
+
+}
+.footer-left img {
+    width: 50%;
+    padding-top: 35px;
+}
+
+.footer ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+.footer a{
+    text-decoration: none;
+}
+/*Footer Right*/
+.footer-right {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 5px 50px;
+    border: 1px solid red;
+
+}
+
+
+
+/* Footer bottom*/
+.footer-bottom {
+    display: flex;
+    justify-content: space-around;
+}
+.footer-bottom-left {
+    text-align: left;
+    padding-top: 70px;
+    box-sizing: border-box;
+}
+.footer-bottom-right {
+    text-align: right;
+    padding-top: 70px;
+    box-sizing: border-box;
+
+}
+
+/*@media screen and (min width: 600px){
+
+}*/
