@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BOXMad</title>
     <link href="css/styles.css" rel="stylesheet" type="text/css" />
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+    <!--Estos es para los iconos de los socials-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
   </head>
   <body>
       <!-- Manu -->
@@ -15,7 +20,11 @@
             <ul class= "navList">
                 <li><img src=""> </li>
                 <li><a class = "navA" href="#">HOME</a></li>
+<<<<<<< HEAD
                 <li><a class = "navA" href="#">BOXPARK</a></li>
+=======
+                <li><a class = "navA" href="boxPark.html">BOXPARK</a></li>
+>>>>>>> 42ee42ddd6992d389390e64f7c78b3029bf93cbd
                 <li><a class = "navA" href="#">PACKS</a></li>
                 <li><a class = "navA" href="#">CONTACTO</a></li>
             </ul>
@@ -61,61 +70,19 @@
             <div class="img-box img-container img-three"></div>
         </div>
     </div>
-   
 
-  <!--Javi-->
-  <footer class="footer">
-    <div class="footer-container">
-      <!--Hay dos contenedores principales dentro del footer left y rigth-->
-    
-      <!--footer left-->
-      <div class="footer-left">
-        <img src="#" alt="#">  <!--Logo goes here-->
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-        </div>
-      
-        <!--Footer right-->
-      <ul class="footer-right"> 
-        <li>
-          <h3>Information</h3>
-        
-          <ul class="footer-box">
-            <li><a href="#"></a>Contact us</li>
-            <li><a href="#"></a>Become a partner</li>
-            <li><a href="#"></a>About us</li>
-            <li><a href="#"></a>Events</li>
-          </ul>
-        </li>
-        <li>
-          <h3>Location</h3>
-        
-          <ul class="footer-box">
-            <li><a href="#"></a>120, West lane</li>
-            <li><a href="#"></a>28660</li>
-            <li><a href="#"></a>Madrid</li>
-            <li><a href="#"></a>Spain</li>
-          </ul>
-        </li>
-        <li class="socials">
-          <h3>Follow</h3>
-        
-          <ul class="footer-socials">
-            <li><a href="#"><i class="fa fa-facebook"></i></a>Facebook</li>
-            <li><a href="#"><i class="fa fa-twitter"></i></a>Twitter</li>
-            <li><a href="#"><i class="fa fa-youtube"></i></a>Youtube</li>
-            <li><a href="#"><i class="fa fa-instagram"></i></a>Instagram</li>
-          </ul>
-        </li>    
-      </ul>
-    </div>
-    <div class="footer-bottom">
-      <div class="footer-bottom-left">
-        <p><span>All rights reserved</span></p>
-      </div>
-      <div class="footer-bottom-right">
-        <p>Made with<span aria-label="love" class="gamut-8vrj74-HeartContainer e199n3s10">️❤️</span> in Madrid &copy;Madbox 2021</p>
-      </div>
-    </div>
-  </footer>
+    <!--JAVI footer -->
+<div id="footer-placeholder">
+
+</div>
+
+
+<!--Estas líneas de código me permiten reusar el código que contiene footer.html-->
+<script>
+$(function(){
+  $("#footer-placeholder").load("footer.html");
+});
+</script>
+<!--end of footer -->
   </body>
 </html>
