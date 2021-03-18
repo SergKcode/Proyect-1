@@ -1,12 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BOXMad</title>
+    <link href="css/styles.css" rel="stylesheet" type="text/css" />
+    <link href="css/footer.css" rel="stylesheet" type="text/css" />
+
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+    <!--Estos es para los iconos de los socials-->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <!-- Manu -->
+    <div class="header">
+      <header class="logo"></header>
+      <nav class="nav">
+        <ul class="navList">
+          <li><img src="" /></li>
+          <li><a class="navA" href="index.html">HOME</a></li>
+          <li><a class="navA" href="boxPark.html">BOXPARK</a></li>
+          <li><a class="navA" href="packs.html">PACKS</a></li>
+          <li><a class="navA" href="contact.html">CONTACTO</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div id="aboutContainer">
+      <div class="form-box" id="form">
+        <div class="row">
+          <h2>Nosotros estamos felices de oirle</h2>
+        </div>
+
+        <div class="row">
+          <form class="contact-form">
+            <div class="row">
+              <div class="col span-1-of-3">
+                <label for="name">Nombre</label>
+              </div>
+              <div class="col span-2-of-3">
+                <input
+                  type="text"
+                  name="name"
+                  id="name"
+                  placeholder="Tu nombre"
+                  required
+                />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col span-1-of-3">
+                <label for="email">Email</label>
+              </div>
+              <div class="col span-2-of-3">
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="Tu email"
+                  required
+                />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col span-1-of-3">
+                <label for="find-us">¿Como nos encontraste?</label>
+              </div>
+              <div class="col span-2-of-3">
+                <select name="find-us" id="find-us">
+                  <option value="friends" selected>Amigos</option>
+                  <option value="search">Buscador</option>
+                  <option value="ad">Anuncio publicitario</option>
+                  <option value="other">Otros</option>
+                </select>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col span-1-of-3">
+                <label for="news">¿Boletin informativo?</label>
+              </div>
+              <div class="col span-2-of-3">
+                <input type="checkbox" name="news" id="news" checked /> Si Por
+                favor
+              </div>
+            </div>
+            <div class="row">
+              <div class="col span-1-of-3">
+                <label>Escríbanos</label>
+              </div>
+              <div class="col span-2-of-3">
+                <textarea name="message" placeholder="Tu mensaje"></textarea>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col span-1-of-3">
+                <label>&nbsp;</label>
+              </div>
+              <div class="col span-2-of-3">
+                <input type="submit" value="Enviar" />
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
