@@ -97,7 +97,7 @@ a:hover{
     justify-content: center;
     width: 90%;
     margin:20px auto;
-    border: 1px solid red;
+    
 }
 
 
@@ -141,7 +141,7 @@ a:hover{
     width: 90%;
     height: 500px;
     margin: 20px;
-    border: 1px solid blue;
+ 
 }
 .img-container{
     width: 40%;
@@ -209,21 +209,29 @@ a:hover{
     display: flex;
     justify-content: space-around;
     background: rgba(0, 0, 0, 0.82);
-    padding: 7px;
+    padding: 10px;
     height: 70px;
     list-style: none;
     align-items: center;
-
     overflow: hidden;
     margin: 0px;
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
+    
+}
+.navA{
+    border-radius: 15px;
+    padding: 15px;
+    font-family:"MonserratBold" ;
 }
 
+.navList > li:hover a{
+    background-color: white;
+    color: black;
+}
 #header{
     margin: 0px;
 
-    
 }
 
 .navA {
@@ -232,5 +240,6 @@ a:hover{
 
 
 
-  }
+}
+
 
