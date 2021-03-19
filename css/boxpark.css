@@ -1,5 +1,8 @@
 /*HEADER BOXPARK*/
-
+body ::selection {
+    background-color: #7289DA;
+    color:white;
+}
 .header-boxpark-container{
     width: 100%;
     border: 1px solid black;
@@ -28,7 +31,6 @@
     font-size: 75px;
     width: 100%;
 }
-
 
 
 /*TRUSTPILOT SECTION */
@@ -94,6 +96,9 @@
     display: inline-block;
     /*border: 1px solid black;*/
 }
+.article-first-body {
+    margin-bottom: 19px;
+}
 .article-first-title{
     text-align: center;
 
@@ -146,6 +151,7 @@
     width: 70%;
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
 }
 
 .second-container-left {
@@ -156,12 +162,12 @@
     background-position: center;
     background-repeat: no-repeat;
     padding: 0px;
-    background-image: url('../img/boxpark-section-img.jpeg');
+    background-image: url('../img/bar2.jpg');
 }
 
 .second-container-right {
     height: 100%;
-    width: 50%;
+    width: 40%;
     height: 100%;
     padding: 0px;
 }
@@ -171,7 +177,9 @@
     border-bottom: 2px solid  black;
 }
 
-
+.learn-more:hover{
+    color: #7289DA ;
+}
 
 
 /*STRIP SECTION*/
@@ -235,6 +243,23 @@
   
 }
 
+/*TESTIMONIAL SECTION*/
+
+.img-boxpark-testimonial{
+    background-image: url('../img/balls.jpg');
+    
+}
+
+/*TESTIMONIAL SECTION 2*/
+
+.testi-section2-container{
+    background-color: #213852;
+    width: 100%;
+    height: 730px;
+    display: flex;
+    align-items: center;
+}
+
 
 
 /*TEXT CONTAINER*/
@@ -272,4 +297,74 @@
     padding-right: 10px;
     display: inline-block;
 }
+
+
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: 200ms ease-in-out;
+    border: 1px solid black;
+    border-radius: 10px;
+    z-index: 10;
+    background-color: white;
+    width: 500px;
+    max-width: 80%;
+  }
+  
+  .modal.active {
+    transform: translate(-50%, -50%) scale(1);
+  }
+  
+  .modal-header {
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+  }
+  
+  .modal-header .title {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  .modal-header .close-button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  .modal-body {
+    padding: 10px 15px;
+  }
+  
+  #overlay {
+    position: fixed;
+    opacity: 0;
+    transition: 200ms ease-in-out;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .5);
+    pointer-events: none;
+  }
+  
+  #overlay.active {
+    opacity: 1;
+    pointer-events: all;
+  }
+/*MOBILE*/
+@media screen and (max-width: 700px, min-width: 600px) {
+
+.header-item h1{
+    font-size: 8px;
+}
+}
+
 

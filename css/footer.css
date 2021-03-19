@@ -71,9 +71,22 @@ footer{
     /*border: 1px solid red;*/
 
 }
+.footer-right-article-title{
+    text-decoration: underline;
+    
+}
 
+.footer-right-article{
+    border-left: 1px solid #7289DA;
+    padding-left: 10px;
+}
 
-
+#footer-links:hover{
+    color: #7289DA;
+}
+.right-article-item {
+    padding: 3px 2px;
+}
 /* Footer bottom*/
 .footer-bottom {
     display: flex;

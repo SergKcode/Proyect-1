@@ -8,10 +8,10 @@
     <link href="css/boxpark.css" rel="stylesheet" type="text/css" />
     <link href="css/footer.css" rel="stylesheet" type="text/css" />
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-
-    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    
+    
     <title>Boxpark</title>
 </head>
 <body>
@@ -35,7 +35,7 @@
 <div class="header-boxpark-container img-boxpark-header">
     <div class="header-boxpark-title-container">
         <div class="header-item" > 
-            <h1><span> WHAT IS BOXPARK</span></h1>
+            <h1 class="header-item-h1"><span> WHAT IS BOXPARK</span></h1>
             <h3 id="h3-boxpark">EAT.DRINK.PLAY</h3>
         </div>
     </div>
@@ -53,10 +53,10 @@
       <div class="articles-first-container">
         <div class="article-first">
             <img class="article-img-first" data-src="holder.js/100px200/" alt="100%x200" src="img/paintball.jpg" 
-            data-holder-rendered="true" style="height: 300px; width: 300px; display: block;">
+            data-holder-rendered="true" style="height: 300px; width: 330px; display: block;">
             <div class="article-first-first-body">
                 <h3 class="article-first-title">EXPLORE THE PACKS</h3>
-                <p class="article-first-text">Choose from over 30+ dishes and our range of delicious extras</p>
+                <p class="article-first-text">Choose from over 30+ adventure packs and our different vendors</p>
             </div>
             <div class="article-first-button">
                 <button id="first-section-button">
@@ -67,11 +67,10 @@
         </div>
         <div class="article-first">
           <img class="article-img-first" data-src="holder.js/100px200/" alt="100%x200" src="img/ThemePark.jpg" 
-          data-holder-rendered="true" style="height: 300px; width: 300px; display: block;">
-          <div class="article-first-first-body">
-              <h3 class="article-first-title">LEVEL UP YOUR LUNCHES
-            </h3>
-              <p class="article-first-text">Perfect for reclaiming lunch breaks and nutritionally boosting your day</p>
+          data-holder-rendered="true" style="height: 300px; width: 330px; display: block;">
+          <div class="article-first-body">
+              <h3 class="article-first-title">LEVEL UP YOUR LUNCHES</h3>
+              <p class="article-first-text">Perfect for a lunch breaks and nutritionally boosting your day</p>
           </div>
           <div class="article-first-button">
             <button id="first-section-button">
@@ -83,10 +82,10 @@
         </div>
           <div class="article-first">
               <img class="article-img-first" data-src="holder.js/100px200/" alt="100%x200" src="img/bar3.jpg" 
-              data-holder-rendered="true" style="height: 300px; width: 300px; display: block;">
+              data-holder-rendered="true" style="height: 300px; width: 330px; display: block;">
               <div class="article-first-first-body">
                   <h3 class="article-first-title">TAKE OUR QUIZ</h3>
-                  <p class="article-first-text">Discover which dishes our chefs recommend just for you</p>
+                  <p class="article-first-text">Discover which activites are more suitable for you by taking this quiz</p>
               </div>
               <div class="article-first-button">
                 <button id="first-section-button">
@@ -106,11 +105,10 @@
         </div>
         <div class="second-container-right">
             <h2>EVERYONE IS WELCOME AT OUR TABLE</h2>
-            <p>We know trying to eat vegan can be hard, so we just try and make it easy.</p>
+            <p>There is nothing like a good meal after a big adventure it can be hard, so we just try and make it easy.</p>
             <br>
             <p>
-                Discover 100% plant-based meals, prepared by chefs and flash-frozen for freshness and convenience. So they taste as good in your kitchen as they do in ours.
-            </p>
+                Discover our different vendors and traders they are obsessed to make you have the best time of your life.</p>
             <a href="" class="learn-more"><strong>learn more</strong></a>
         </div>
     </div>
@@ -136,19 +134,41 @@
         </div>
     </div>
 </div>
-
-
-<!--text container-->
-<div class="main-boxpark-container">
-
-    <div class="text-container-boxpark">
-        <p><strong> WITH THE HUMBLE ETHOS OF BRINGING SHIPPING CONTAINERS TO EAST LONDON, BOXPARK TRANSFORMED THE SPACE 
-            INTO THE WORLD’S FIRST POP-UP DINING AND SHOPPING DESTINATION IN 2011.</strong></p>
-        <p><strong>FAST-FORWARD NEARLY A DECADE WITH THREE VENUES AT ICONIC LOCATIONS, BOXPARK HAS BECOME THE BIGGEST FOOD, CULTURE AND SOCIAL HUB IN LONDON WITH LOCAL 
-            COMMUNITIES AT ITS HEART. THIS UNIQUE EXPERIENCE IS BASED ON BOXPARK’S EAT.DRINK.PLAY. PHILOSOPHY.</strong></p>
+<!--TESTIMONIAL SECTION-->
+<div id="content">
+    <div class="container-box-img">
+        <div class="box">
+            <h2 class="heading-main"></h2>
+            <h2 class="heading-secondary">VERY FUN AND ENTERTAINING </h2>
+            <p>"So convenient for when you don't have time to (or can't be bothered to) cook! I never knew plant-based meals could taste this good (I'm usually a meat-eater...) Chef-quality meals at home, in minutes, with 0 effort required. Highly recommend!"</p>
+            <a href="boxPark.html">BOTON</a>
+        </div>
+        <div class="img-box img-container img-boxpark-testimonial"></div>
     </div>
+</div>
+<!--TESTIMONIAL SECTION 2-->
+<div class="testi-section2-container">
+    <div class="testi-section2-small">
+        
+    </div>
+</div>
 
-    <!--Articles container boxpark-->
+<button data-modal-target="#modal">Open Modal</button>
+<div class="modal" id="modal">
+  <div class="modal-header">
+    <div class="title">Example Modal</div>
+    <button data-close-button class="close-button">&times;</button>
+  </div>
+  <div class="modal-body">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse quod alias ut illo doloremque eum ipsum obcaecati distinctio debitis reiciendis quae quia soluta totam doloribus quos nesciunt necessitatibus, consectetur quisquam accusamus ex, dolorum, dicta vel? Nostrum voluptatem totam, molestiae rem at ad autem dolor ex aperiam. Amet assumenda eos architecto, dolor placeat deserunt voluptatibus tenetur sint officiis perferendis atque! Voluptatem maxime eius eum dolorem dolor exercitationem quis iusto totam! Repudiandae nobis nesciunt sequi iure! Eligendi, eius libero. Ex, repellat sapiente!
+  </div>
+</div>
+<div id="overlay"></div>
+
+
+
+
+    <!--Articles container boxpark
     <div class="articles-container">
         <div class="article">
             <img class="article-img-top" data-src="holder.js/100px200/" alt="100%x200" src="img/bar2.jpg" 
@@ -176,8 +196,10 @@
         </div>
     </div>
 </div>
+-->
 
         <!--footer -->
+
  <div id="footer-placeholder">
 
  </div>
@@ -190,5 +212,9 @@
     });
     </script>
     <!--end of footer -->
+
+
+    <script src="boxpark.js"></script>
+
 </body>
 </html>
