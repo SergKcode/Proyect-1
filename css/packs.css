@@ -240,7 +240,13 @@ video {
   background-color: #ffffff;
   border: none;
   font-family: "MonserratBold";
+  transition: all 500ms;
 }
+.but-course:hover {
+    
+    transform: translate(0,-10px);
+  }
+
 
 #activity-description {
   display: flex;
@@ -249,6 +255,8 @@ video {
   justify-content: center;
   margin-left: 30px;
   min-height: 900px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 .youtube-container {
   display: flex;
@@ -362,7 +370,12 @@ video {
   margin: 30px;
   border-radius: 10px;
   padding: 10px;
+  transition: .15s;
+  
 }
+.course:hover {
+    transform: rotate(4deg);
+  }
 .saved-div:hover {
   box-shadow: 0px 2px 18px 0px rgb(0 0 0 / 30%);
 }
