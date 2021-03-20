@@ -1,3 +1,5 @@
+
+/* PACK CARDS */
 .h5-pack-card{
   margin:0px;
   font-size:1.4em;
@@ -19,7 +21,9 @@
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  margin:30px
+  margin:30px;
+  margin-bottom: 60px;
+  margin-top: 40px;
 }
 
 /* End Non-Essential  */
@@ -138,24 +142,56 @@
   background-color:blue;
   cursor:pointer;
 }
+/* FIN PACK CARDS */
 
 
-/* Optional
 
-.property-image-title
-{
-text-align:center;
-position:Relative;
-top:30%;
-opacity:0;
-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1) 0.2s;
-color:black;
-font-size:1.2em;
+/*STRIP SECTION*/
+.strip-container{
+    background-color: #E8E3D9;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+}
+.strip-container-small {
+    margin: 0 auto;
+    height: 90%;
+    width: 80%;
+ 
+   /* border: 1px solid red;*/
 }
 
-.property-card:hover .property-image-title
-{
-opacity:1;
+.small-container-logos{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 70%;
 }
 
-*/
+.logo-article-body{
+    width: 330px;
+    height: 180px;
+
+}
+
+.small-container-button{
+    text-align: center;
+    
+}
+#strip-button {
+    background-color: #7289DA;
+    width: 200px;
+    height: 20px;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+#strip-button:hover {
+    background-color: black;
+    color:white;
+    width: 200px;
+    height: 20px;
+    padding: 20px;
+    border: 2px solid black;
+}
