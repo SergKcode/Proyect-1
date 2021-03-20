@@ -132,7 +132,22 @@ video {
 .main-activity {
   display: flex;
   justify-content: center;
+  width: 100%;
   margin: 10px;
+  justify-content: center;
+}
+
+.activity-type-description{
+    font-family: "PermanentMaker" !important;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+.optional-activities{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    justify-content: center;
 }
 .logo-act {
   padding-right: 10px;
@@ -200,6 +215,7 @@ video {
   display: flex;
   flex-direction: row;
   align-items: flex-end;
+  font-family: "Rye";
 }
 
 .button-wrapper {
@@ -318,6 +334,8 @@ video {
 }
 .youtube-icon-description{
     font-family: "MonserratBold";
+    text-shadow: 0px 3px 3px rgba(0,0,0,0.50);
+    
 }
 
 /* --------------FIN CONTENIDOS Actividades---------------- */
