@@ -5,13 +5,14 @@
     width: 66.13%;
 }
 .col {
-    display: block;
-    float: left;
+    /*display: flex;*/
+    /*float: left;*/
     margin: 1% 0 1% 1.6%;
     margin-left: 0;
 }
 
 .row {
+    display: flex;
     max-width: 1140px;
     margin: 0 auto;
 }
@@ -47,9 +48,4 @@ input[type=checkbox] {
 #parra {
     text-align: justify;
     
-}
-
-#aboutContainer{
-    width: 100%;
-    border: 1px solid black;
 }
