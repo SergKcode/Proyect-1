@@ -1,171 +1,256 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, user-scalable=no"/>
     <link href="css/styles.css" rel="stylesheet" type="text/css" />
     <link href="css/boxpark.css" rel="stylesheet" type="text/css" />
     <link href="css/footer.css" rel="stylesheet" type="text/css" />
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="css/components.css" rel="stylesheet" type="text/css" />
+    <link href="css/responsive.css" rel="stylesheet" type="text/css" />
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-    
-    
+
     <title>Boxpark</title>
-</head>
-<body>
-  <!-- Manu -->
-  <div class = "header">
-    <header class = "logo"></header>
-    <nav class = "nav">
-        <ul class= "navList">
-            <li><a class = "navA" href="index.html">HOME</a></li>
-            <li><a class = "navA" href="boxPark.html">BOXPARK</a></li>
-            <li><a class = "navA" href="packs.html">PACKS</a></li>
-            <li><a class = "navA" href="contact.html">CONTACTO</a></li>
-        </ul>
+  </head>
+  <body>
+    <!-- Manu -->
+    <header class="header-nav">
+      <div clas="nav-logo"><img class="img-nav" src="img/logo-transparent.png"></div>
+      <nav class="nav">
+          <a href="index.html" class="btn-nav">HOME</a>
+          <a href="boxPark.html" class="btn-nav">BOXPARK</a>
+          <a href="packs.html" class="btn-nav">SERVICES</a>
+          <a href="about.html" class="btn-nav">ABOUT US</a>
+          <a href="contact.html" class="btn-nav">CONTACT</a>
+      </nav>
+    </header>
+
+    <nav class="secundary-nav" role="navigation">
+      <div id="menuToggle">
+        <input type="checkbox" />
+          <span></span>
+          <span></span>
+          <span></span>
+          <ul id="menu">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Info</a></li>
+              <li><a href="#">Contact</a></li>
+          </ul>
+     </div>
     </nav>
-</div>
 
-<!--JAVI BELOW-->
+    <!--JAVI BELOW-->
 
-<!--Header of boxpark-->
-<div class="header-boxpark-container img-boxpark-header">
-    <div class="header-boxpark-title-container">
-        <div class="header-item" > 
-            <h1 class="header-item-h1"><span> WHAT IS BOXPARK</span></h1>
-            <h3 id="h3-boxpark">EAT.DRINK.PLAY</h3>
+    <!--Header of boxpark-->
+    <div class="header-boxpark-container img-boxpark-header">
+      <div class="header-boxpark-title-container">
+        <div class="header-item">
+          <h1 class="header-item-h1"><span> WHAT IS BOXPARK</span></h1>
+          <h3 id="h3-boxpark">EAT.DRINK.PLAY</h3>
         </div>
-    </div>
-</div>
-<!--trustpilot section boxpark-->
-<div class="trustpilot-container">
-    <div class="trustpilot-img-container">
-        <img src="img/trustpilot-img.png" alt="trustpilot-rating">
-    </div>
-</div>
-<!--first section -->
-<div class="first-boxpark-container">
-    <div class="first-boxpark-small">
-        <h2 class="h2-first-boxpark">GET ADVENTURE YOUR WAY</h2>
-      <div class="articles-first-container">
-        <div class="article-first">
-            <img class="article-img-first" data-src="holder.js/100px200/" alt="100%x200" src="img/paintball.jpg" 
-            data-holder-rendered="true" style="height: 300px; width: 330px; display: block;">
-            <div class="article-first-first-body">
-                <h3 class="article-first-title">EXPLORE THE PACKS</h3>
-                <p class="article-first-text">Choose from over 30+ adventure packs and our different vendors</p>
-            </div>
-            <div class="article-first-button">
-                <button id="first-section-button">
-                    BUILD YOUR BOX
-                </button>
-            </div>
-
-        </div>
-        <div class="article-first">
-          <img class="article-img-first" data-src="holder.js/100px200/" alt="100%x200" src="img/ThemePark.jpg" 
-          data-holder-rendered="true" style="height: 300px; width: 330px; display: block;">
-          <div class="article-first-body">
-              <h3 class="article-first-title">LEVEL UP YOUR LUNCHES</h3>
-              <p class="article-first-text">Perfect for a lunch breaks and nutritionally boosting your day</p>
-          </div>
-          <div class="article-first-button">
-            <button id="first-section-button">
-                BUILD YOUR BOX
-            </button>
-
-        </div>
-
-        </div>
-          <div class="article-first">
-              <img class="article-img-first" data-src="holder.js/100px200/" alt="100%x200" src="img/bar3.jpg" 
-              data-holder-rendered="true" style="height: 300px; width: 330px; display: block;">
-              <div class="article-first-first-body">
-                  <h3 class="article-first-title">TAKE OUR QUIZ</h3>
-                  <p class="article-first-text">Discover which activites are more suitable for you by taking this quiz</p>
-              </div>
-              <div class="article-first-button">
-                <button id="first-section-button">
-                    BUILD YOUR BOX
-                </button>
-            </div>
-
-          </div>
       </div>
     </div>
-</div>
-<!--SECOND SECTION-->
-<div class="second-container">
-    <div class="second-container-small">
-        <div class="second-container-left">
-
-        </div>
-        <div class="second-container-right">
-            <h2>EVERYONE IS WELCOME AT OUR TABLE</h2>
-            <p>There is nothing like a good meal after a big adventure it can be hard, so we just try and make it easy.</p>
-            <br>
-            <p>
-                Discover our different vendors and traders they are obsessed to make you have the best time of your life.</p>
-            <a href="" class="learn-more"><strong>learn more</strong></a>
-        </div>
+    <!--trustpilot section boxpark-->
+    <div class="trustpilot-container">
+      <div class="trustpilot-img-container">
+        <img src="img/trustpilot-img.png" alt="trustpilot-rating" />
+      </div>
     </div>
-</div>
-
-<!--STRIP SECTION-->
-
-<div class="strip-container">
-    <div class="strip-container-small">
-        <div class="small-container-logos">
-            <div class="logo-article-body">
-                <div class="logo-article-logo">
-                    <i class="fa fa-cutlery" aria-hidden="" id="logo-logo-section"></i>
-
-                </div>
-                <div class="logo-article-text"></div>
+    <!--first section -->
+    <div class="first-boxpark-container">
+      <div class="first-boxpark-small">
+        <h2 class="h2-first-boxpark">GET ADVENTURE YOUR WAY</h2>
+        <div class="articles-first-container">
+          <div class="article-first">
+            <img
+              class="article-img-first"
+              data-src="holder.js/100px200/"
+              alt="100%x200"
+              src="img/paintball.jpg"
+              data-holder-rendered="true"
+              style="height: 300px; width: 330px; display: block"
+            />
+            <div class="article-first-first-body">
+              <h3 class="article-first-title">EXPLORE THE PACKS</h3>
+              <p class="article-first-text">
+                Choose from over 30+ adventure packs and our different vendors
+              </p>
             </div>
-            <div class="logo-article-body"></div>
-            <div class="logo-article-body"></div>
+            <div class="article-first-button">
+              <button id="first-section-button">BUILD YOUR BOX</button>
+            </div>
+          </div>
+          <div class="article-first">
+            <img
+              class="article-img-first"
+              data-src="holder.js/100px200/"
+              alt="100%x200"
+              src="img/ThemePark.jpg"
+              data-holder-rendered="true"
+              style="height: 300px; width: 330px; display: block"
+            />
+            <div class="article-first-body">
+              <h3 class="article-first-title">LEVEL UP YOUR LUNCHES</h3>
+              <p class="article-first-text">
+                Perfect for a lunch breaks and nutritionally boosting your day
+              </p>
+            </div>
+            <div class="article-first-button">
+              <button id="first-section-button">BUILD YOUR BOX</button>
+            </div>
+          </div>
+          <div class="article-first">
+            <img
+              class="article-img-first"
+              data-src="holder.js/100px200/"
+              alt="100%x200"
+              src="img/bar3.jpg"
+              data-holder-rendered="true"
+              style="height: 300px; width: 330px; display: block"
+            />
+            <div class="article-first-first-body">
+              <h3 class="article-first-title">TAKE OUR QUIZ</h3>
+              <p class="article-first-text">
+                Discover which activites are more suitable for you by taking
+                this quiz
+              </p>
+            </div>
+            <div class="article-first-button">
+              <button id="first-section-button">BUILD YOUR BOX</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--SECOND SECTION-->
+    <div class="second-container">
+      <div class="second-container-small">
+        <div class="second-container-left"></div>
+        <div class="second-container-right">
+          <h2>EVERYONE IS WELCOME AT OUR TABLE</h2>
+          <p>
+            There is nothing like a good meal after a big adventure it can be
+            hard, so we just try and make it easy.
+          </p>
+          <br />
+          <p>
+            Discover our different vendors and traders they are obsessed to make
+            you have the best time of your life.
+          </p>
+          <a href="" class="learn-more"><strong>learn more</strong></a>
+        </div>
+      </div>
+    </div>
+
+    <!--STRIP SECTION-->
+
+    <div class="strip-container">
+      <div class="strip-container-small">
+        <div class="small-container-logos">
+          <div class="logo-article-body">
+            <div class="logo-article-logo">
+              <i
+                class="fa fa-cutlery"
+                aria-hidden=""
+                id="logo-logo-section"
+              ></i>
+            </div>
+            <div class="logo-article-text"></div>
+          </div>
+          <div class="logo-article-body"></div>
+          <div class="logo-article-body"></div>
         </div>
         <div class="small-container-button">
-            <button id="strip-button">TRY US NOW</button>
+          <button id="strip-button">TRY US NOW</button>
         </div>
+      </div>
     </div>
-</div>
-<!--TESTIMONIAL SECTION-->
-<div id="content">
-    <div class="container-box-img">
+    <!--TESTIMONIAL SECTION-->
+    <div id="content">
+      <div class="container-box-img">
         <div class="box">
-            <h2 class="heading-main"></h2>
-            <h2 class="heading-secondary">VERY FUN AND ENTERTAINING </h2>
-            <p>"So convenient for when you don't have time to (or can't be bothered to) cook! I never knew plant-based meals could taste this good (I'm usually a meat-eater...) Chef-quality meals at home, in minutes, with 0 effort required. Highly recommend!"</p>
-            <a href="boxPark.html">BOTON</a>
+          <h2 class="heading-main"></h2>
+          <h2 class="heading-secondary">VERY FUN AND ENTERTAINING</h2>
+          <p>
+            "So convenient for when you don't have time to (or can't be bothered
+            to) cook! I never knew plant-based meals could taste this good (I'm
+            usually a meat-eater...) Chef-quality meals at home, in minutes,
+            with 0 effort required. Highly recommend!"
+          </p>
+          <a href="boxPark.html">BOTON</a>
         </div>
         <div class="img-box img-container img-boxpark-testimonial"></div>
+      </div>
     </div>
-</div>
-<!--TESTIMONIAL SECTION 2-->
-<div class="testi-section2-container">
-    <div class="testi-section2-small">
-        
+    <!--SLIDER PARTNERS SECTION -->
+
+    <div class="slider-container">
+      <div class="slider-title">
+        <h1>JOIN THOUSANDS OF HAPPY CUSTOMERS</h1>
+        <p>
+          We love seeing you with your deliveries. Tag @allplants and show us
+          your #allplantsboxie for a chance to get featured!
+        </p>
+      </div>
+      <div class="slider-container-big">
+        <div id="slider-container-small">
+          <span onclick="slideRight()" class="btn"></span>
+          <div id="slider">
+            <div
+              class="slide"
+              class="img-container-slider"
+              id="img-slider-1"
+              data-modal-target="#modal"
+            >
+              <span></span>
+            </div>
+            <div class="slide" class="img-container-slider" id="img-slider-2">
+              <span></span>
+            </div>
+            <div class="slide" class="img-container-slider" id="img-slider-3">
+              <span></span>
+            </div>
+            <div class="slide" class="img-container-slider" id="img-slider-4">
+              <span></span>
+            </div>
+            <div class="slide" class="img-container-slider" id="img-slider-5">
+              <span></span>
+            </div>
+            <div class="slide" class="img-container-slider" id="img-slider-6">
+              <span></span>
+            </div>
+          </div>
+          <span onclick="slideLeft()" class="btn"></span>
+        </div>
+      </div>
     </div>
-</div>
-
-<button data-modal-target="#modal">Open Modal</button>
-<div class="modal" id="modal">
-  <div class="modal-header">
-    <div class="title">Example Modal</div>
-    <button data-close-button class="close-button">&times;</button>
-  </div>
-  <div class="modal-body">
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse quod alias ut illo doloremque eum ipsum obcaecati distinctio debitis reiciendis quae quia soluta totam doloribus quos nesciunt necessitatibus, consectetur quisquam accusamus ex, dolorum, dicta vel? Nostrum voluptatem totam, molestiae rem at ad autem dolor ex aperiam. Amet assumenda eos architecto, dolor placeat deserunt voluptatibus tenetur sint officiis perferendis atque! Voluptatem maxime eius eum dolorem dolor exercitationem quis iusto totam! Repudiandae nobis nesciunt sequi iure! Eligendi, eius libero. Ex, repellat sapiente!
-  </div>
-</div>
-<div id="overlay"></div>
-
-
-
+    <!--MODAL POPUP BUTTON-->
+    <button data-modal-target="#modal">Open Modal</button>
+    <div class="modal" id="modal">
+      <div class="modal-header">
+        <div class="title">Example Modal</div>
+        <button data-close-button class="close-button">&times;</button>
+      </div>
+      <div class="modal-body">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse quod alias
+        ut illo doloremque eum ipsum obcaecati distinctio debitis reiciendis
+        quae quia soluta totam doloribus quos nesciunt necessitatibus,
+        consectetur quisquam accusamus ex, dolorum, dicta vel? Nostrum
+        voluptatem totam, molestiae rem at ad autem dolor ex aperiam. Amet
+        assumenda eos architecto, dolor placeat deserunt voluptatibus tenetur
+        sint officiis perferendis atque! Voluptatem maxime eius eum dolorem
+        dolor exercitationem quis iusto totam! Repudiandae nobis nesciunt sequi
+        iure! Eligendi, eius libero. Ex, repellat sapiente!
+      </div>
+    </div>
+    <div id="overlay"></div>
 
     <!--Articles container boxpark
     <div class="articles-container">
@@ -197,23 +282,18 @@
 </div>
 -->
 
-        <!--footer -->
+    <!--footer -->
 
- <div id="footer-placeholder">
+    <div id="footer-placeholder"></div>
 
- </div>
-    
-    
     <!--Estas líneas de código me permiten reusar el código que contiene footer.html-->
     <script>
-    $(function(){
-      $("#footer-placeholder").load("footer.html");
-    });
+      $(function () {
+        $("#footer-placeholder").load("footer.html");
+      });
     </script>
     <!--end of footer -->
 
-
     <script src="boxpark.js"></script>
-
-</body>
+  </body>
 </html>

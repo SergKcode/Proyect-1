@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, user-scalable=no"/>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -14,25 +14,39 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css" />
     <link href="css/footer.css" rel="stylesheet" type="text/css" />
     <link href="css/components.css" rel="stylesheet" type="text/css" />
+    <link href="css/responsive.css" rel="stylesheet" type="text/css" />
 
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 
     <title>Cursos</title>
   </head>
   <body>
-    <div class="header-content">
-      <div class="header">
-        <header class="logo"></header>
-        <nav class="nav">
-          <ul class="navList">
-            <li><a class="navA" href="index.html">HOME</a></li>
-            <li><a class="navA" href="boxPark.html">BOXPARK</a></li>
-            <li><a class="navA" href="packs.html">PACKS</a></li>
-            <li><a class="navA" href="contact.html">CONTACTO</a></li>
-          </ul>
-        </nav>
+    <header class="header-nav">
+      <div clas="nav-logo">
+        <img class="img-nav" src="img/logo-transparent.png" />
       </div>
-    </div>
+      <nav class="nav">
+        <a href="index.html" class="btn-nav">HOME</a>
+        <a href="boxPark.html" class="btn-nav">BOXPARK</a>
+        <a href="packs.html" class="btn-nav">SERVICES</a>
+        <a href="about.html" class="btn-nav">ABOUT US</a>
+        <a href="contact.html" class="btn-nav">CONTACT</a>
+      </nav>
+    </header>
+    <nav class="secundary-nav" role="navigation">
+      <div id="menuToggle">
+        <input type="checkbox" />
+          <span></span>
+          <span></span>
+          <span></span>
+          <ul id="menu">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Info</a></li>
+              <li><a href="#">Contact</a></li>
+          </ul>
+     </div>
+    </nav>
     <!-- SERGIO -->
     <div class="header-container-pack">
       <div id="header-pack-img">
@@ -43,6 +57,7 @@
         </div>
       </div>
     </div>
+
 
     <div class="strip-container">
       <div class="strip-container-small">
@@ -200,9 +215,7 @@
     <div id="promo-container">
       <div class="button-wrapper">
         <button type="button" class="btn btn-primary but-course">Surf</button>
-        <button type="button" class="btn btn-primary but-course">
-          Climbing
-        </button>
+        <button type="button" class="btn btn-primary but-course">Climbing</button>
       </div>
     </div>
     <div id="courses-container">
@@ -234,12 +247,9 @@
             </li>
             <li class="element-description">
               <i class="far fa-thumbs-up thumb-green"></i>
-              <p>Private Lessons</p>
+              <p>Private Lessons (optional)</p>
             </li>
-            <li class="element-description">
-              <i class="far fa-thumbs-up thumb-green"></i>
-              <p>Flexible Schedule</p>
-            </li>
+        
           </ul>
         </div>
 
@@ -290,11 +300,7 @@
               <i class="far fa-thumbs-up thumb-green"></i>
               <p>Private Lessons</p>
             </li>
-            <li class="element-description">
-              <i class="far fa-thumbs-up thumb-green"></i>
-              <p>Flexible Schedule</p>
-            </li>
-            Official certification
+            
           </ul>
         </div>
 
@@ -347,10 +353,6 @@
             </li>
             <li class="element-description">
               <i class="far fa-thumbs-up thumb-green"></i>
-              <p>Flexible Schedule</p>
-            </li>
-            <li class="element-description">
-              <i class="far fa-thumbs-up thumb-green"></i>
               <p>Official certification</p>
             </li>
           </ul>
@@ -359,7 +361,7 @@
         <div class="list-description">
           <div class="description-info">
             <span class="logo-act"><i class="far fa-calendar-alt"></i></span>
-            <p>Schedule: Monday and Wednesday</p>
+            <p>Schedule: Flexible</p>
           </div>
           <div class="description-info">
             <span class="logo-act"
@@ -369,7 +371,7 @@
           </div>
           <div class="description-info">
             <i class="fas fa-users"></i>
-            <p>Maximum group of 5</p>
+            <p>Maximum group of 3</p>
           </div>
         </div>
       </div>
