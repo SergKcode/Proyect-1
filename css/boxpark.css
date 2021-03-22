@@ -1,3 +1,5 @@
+/*RESET*/
+
 /*HEADER BOXPARK*/
 body ::selection {
     background-color: #7289DA;
@@ -297,6 +299,8 @@ body ::selection {
   
 #slider-container-small .btn:hover {
     transform: scale(1.2);
+    border-left: 8px solid #7289DA;
+    border-top: 8px solid #7289DA;
   }
   
 #slider-container-small .btn.inactive {
