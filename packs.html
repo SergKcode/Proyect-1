@@ -76,11 +76,9 @@
     </div>
 
     <div id="activity-description">
-      <div class="row container-row">
-        <div
-          class="card col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 m-5 p-1"
-          style="max-width: 310px"
-        >
+      <div id="row-card" class="row container-row">
+        <div class="card col-xs-6 col-sm-8 col-md-4 col-lg-3 col-xl-3 m-5 p-1">
+        
           <img src="img/surf1.jpg" class="card-img-top" alt="Card image" />
 
           <div class="card-block">
@@ -115,9 +113,79 @@
         </div>
 
         <div
-          class="card col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 m-5 p-1"
-          style="max-width: 310px"
-        >
+          class="card col-xs-6 col-sm-8 col-md-4 col-lg-3 col-xl-3 m-5 p-1">
+        
+          <img src="img/surf1.jpg" class="card-img-top" alt="Card image" />
+
+          <div class="card-block">
+            <h4 class="card-title p-2 bold">Surf</h4>
+            <p class="card-text textp p-2 border-bottom border-dark">
+              Who said that Madrid had no beach? Come and surf with our static
+              waves
+            </p>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                <i class="fas fa-hourglass-half icon-cards"></i>Duration: 1h
+              </li>
+              <li class="list-group-item">
+                <i class="fas fa-euro-sign icon-cards"></i>Price: 20€
+              </li>
+            </ul>
+            <div class="container justify-content-center">
+              <a href="contact.html" class="btn btn-primary">Book</a>
+            </div>
+            <div class="youtube-container">
+              <div class="youtube">
+                <a href="https://www.youtube.com/watch?v=I8u16mZqDMQ"
+                  ><div class="youtube-icon"></div
+                ></a>
+
+                <p class="youtube-icon-description">
+                  Check our climbing center
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="card col-xs-6 col-sm-8 col-md-4 col-lg-3 col-xl-3 m-5 p-1">
+        
+          <img src="img/skate.jpg" class="card-img-top" alt="Card image" />
+
+          <div class="card-block">
+            <h4 class="card-title p-2 bold">Skate</h4>
+            <p class="card-text textp p-2 border-bottom border-dark">
+              Enjoy of our skate park. One of the biggest spanish skateparks.
+              Come to try!
+            </p>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                <i class="fas fa-hourglass-half icon-cards"></i>Duration: Full
+                day
+              </li>
+              <li class="list-group-item">
+                <i class="fas fa-euro-sign icon-cards"></i>Price: 25€
+              </li>
+            </ul>
+            <div class="container justify-content-center">
+              <a href="contact.html" class="btn btn-primary">Book</a>
+            </div>
+            <div class="youtube-container">
+              <div class="youtube">
+                <a href="https://www.youtube.com/watch?v=I8u16mZqDMQ"
+                  ><div class="youtube-icon"></div
+                ></a>
+
+                <p class="youtube-icon-description">
+                  Check our climbing center
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="card col-xs-6 col-sm-8 col-md-4 col-lg-3 col-xl-3 m-5 p-1">
+        
           <img src="img/skate.jpg" class="card-img-top" alt="Card image" />
 
           <div class="card-block">
@@ -153,9 +221,44 @@
         </div>
 
         <div
-          class="card col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 m-5 p-1"
-          style="max-width: 310px"
-        >
+          class="card col-xs-6 col-sm-8 col-md-4 col-lg-3 col-xl-3 m-5 p-1">
+        
+          <img src="img/skate.jpg" class="card-img-top" alt="Card image" />
+
+          <div class="card-block">
+            <h4 class="card-title p-2 bold">Skate</h4>
+            <p class="card-text textp p-2 border-bottom border-dark">
+              Enjoy of our skate park. One of the biggest spanish skateparks.
+              Come to try!
+            </p>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                <i class="fas fa-hourglass-half icon-cards"></i>Duration: Full
+                day
+              </li>
+              <li class="list-group-item">
+                <i class="fas fa-euro-sign icon-cards"></i>Price: 25€
+              </li>
+            </ul>
+            <div class="container justify-content-center">
+              <a href="contact.html" class="btn btn-primary">Book</a>
+            </div>
+            <div class="youtube-container">
+              <div class="youtube">
+                <a href="https://www.youtube.com/watch?v=I8u16mZqDMQ"
+                  ><div class="youtube-icon"></div
+                ></a>
+
+                <p class="youtube-icon-description">
+                  Check our climbing center
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="card col-xs-6 col-sm-8 col-md-4 col-lg-3 col-xl-3 m-5 p-1">
           <img
             src="img/climbingcenter.jpg"
             class="card-img-top"
@@ -214,14 +317,14 @@
 
     <div id="promo-container">
       <div class="button-wrapper">
-        <button type="button" class="btn btn-primary but-course">Surf</button>
-        <button type="button" class="btn btn-primary but-course">Climbing</button>
+        <button type="button" id="surf-btn" class="btn btn-primary but-course">Surf</button>
+        <button type="button" id="climb-btn" class="btn btn-primary but-course">Climbing</button>
       </div>
     </div>
     <div id="courses-container">
       <div class="course">
-        <div class="level-course">
-          <h2 class="title-course">BEGGINER COURSE</h2>
+        <div id="beg-course-container"class="level-course">
+          <h2 id="beg-course" class="title-course">BEGGINER COURSE</h2>
         </div>
         <div class="saved-course">
           <p class="line-through">200€</p>
@@ -256,23 +359,21 @@
         <div class="list-description">
           <div class="description-info">
             <span class="logo-act"><i class="far fa-calendar-alt"></i></span>
-            <p>Schedule: Monday and Wednesday</p>
+            <p>Schedule: Tuesday and Thursday</p>
           </div>
           <div class="description-info">
-            <span class="logo-act"
-              ><i class="fas fa-chalkboard-teacher"></i
-            ></span>
+            <span class="logo-act"><i class="fas fa-chalkboard-teacher"></i></span>
             <p>Private Lessons</p>
           </div>
           <div class="description-info">
-            <i class="fas fa-users"></i>
-            <p>Maximum group of 5</p>
+            <span class="logo-act"><i class="fas fa-users"></i></span>
+            <p>Max. group of 5</p>
           </div>
         </div>
       </div>
       <div class="course">
         <div class="level-course">
-          <h2 class="title-course">INTERMEDIUM COURSE</h2>
+          <h2 id="mid-course" class="title-course">INTERMEDIUM COURSE</h2>
         </div>
         <div class="saved-course">
           <p class="line-through">400€</p>
@@ -300,6 +401,10 @@
               <i class="far fa-thumbs-up thumb-green"></i>
               <p>Private Lessons</p>
             </li>
+            <li class="element-description">
+              <i class="far fa-thumbs-up thumb-green"></i>
+              <p>Official certification</p>
+            </li>
             
           </ul>
         </div>
@@ -316,14 +421,14 @@
             <p>Private Lessons</p>
           </div>
           <div class="description-info">
-            <i class="fas fa-users"></i>
-            <p>Maximum group of 5</p>
+            <span class="logo-act"><i class="fas fa-users"></i></span>
+            <p>Max. group of 5</p>
           </div>
         </div>
       </div>
       <div class="course">
         <div class="level-course">
-          <h2 class="title-course">ADVANCED COURSE</h2>
+          <h2  id="adv-course" class="title-course">ADVANCED COURSE</h2>
         </div>
         <div class="saved-course">
           <p class="line-through">500€</p>
@@ -370,8 +475,8 @@
             <p>Private Lessons</p>
           </div>
           <div class="description-info">
-            <i class="fas fa-users"></i>
-            <p>Maximum group of 3</p>
+            <span class="logo-act"><i class="fas fa-users"></i></span>
+            <p>Max. group of 3</p>
           </div>
         </div>
       </div>
@@ -544,5 +649,6 @@
       integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
       crossorigin="anonymous"
     ></script>
+    <script src="services.js"></script>
   </body>
 </html>
