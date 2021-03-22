@@ -1,7 +1,10 @@
-.span-1-of-3 {
+/*tag*/
+.span-1 {
     width: 32.26%;
 }
-.span-2-of-3 {
+
+/*inputs*/
+.span-2 {
     width: 66.13%;
 }
 .col {
@@ -16,6 +19,7 @@
     max-width: 1140px;
     margin: 0 auto;
     justify-content: center;
+    align-items: center;
 }
 
 .contact-form {
