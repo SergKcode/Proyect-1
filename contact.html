@@ -6,7 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BOXMad</title>
     <link href="css/styles.css" rel="stylesheet" type="text/css" />
+    <link href="css/contact.css" rel="stylesheet" type="text/css" />
     <link href="css/footer.css" rel="stylesheet" type="text/css" />
+    <link href="css/components.css" rel="stylesheet" type="text/css" />
+    <link href="css/responsive.css" rel="stylesheet" type="text/css" />
 
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 
@@ -18,23 +21,38 @@
   </head>
   <body>
     <!-- Manu -->
-    <div class="header">
-      <header class="logo"></header>
+    <header class="header-nav">
+      <div clas="nav-logo"><img class="img-nav" src="img/logo-transparent.png"></div>
       <nav class="nav">
-        <ul class="navList">
-          <li><img src="" /></li>
-          <li><a class="navA" href="index.html">HOME</a></li>
-          <li><a class="navA" href="boxPark.html">BOXPARK</a></li>
-          <li><a class="navA" href="packs.html">PACKS</a></li>
-          <li><a class="navA" href="contact.html">CONTACTO</a></li>
-        </ul>
+          <a href="index.html" class="btn-nav">HOME</a>
+          <a href="boxPark.html" class="btn-nav">BOXPARK</a>
+          <a href="packs.html" class="btn-nav">SERVICES</a>
+          <a href="about.html" class="btn-nav">ABOUT US</a>
+          <a href="contact.html" class="btn-nav">CONTACT</a>
       </nav>
-    </div>
+    </header>
+
+    <nav class="secundary-nav" role="navigation">
+      <div id="menuToggle">
+        <input type="checkbox" />
+          <span></span>
+          <span></span>
+          <span></span>
+          <ul id="menu">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Info</a></li>
+              <li><a href="#">Contact</a></li>
+          </ul>
+     </div>
+    </nav>
     <div id="aboutContainer">
       <div class="form-box" id="form">
         <div class="row">
           <h2>Nosotros estamos felices de oirle</h2>
         </div>
+
+        <!-- formulary -->
 
         <div class="row">
           <form class="contact-form">
@@ -107,6 +125,22 @@
           </form>
         </div>
       </div>
-    </div>
+              <!--footer -->
+
+ <div id="footer-placeholder">
+
+</div>
+   
+   
+   <!--Estas líneas de código me permiten reusar el código que contiene footer.html-->
+   <script>
+   $(function(){
+     $("#footer-placeholder").load("footer.html");
+   });
+   </script>
+   <!--end of footer -->
+    
+
+
   </body>
 </html>
