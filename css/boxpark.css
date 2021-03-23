@@ -4,6 +4,7 @@ body ::selection {
     color:white;
 }
 .header-boxpark-container{
+  background-image: url(../img/boxpark-header-img.jpeg);
     width: 100%;
     border: 1px solid black;
     width: 100%;
@@ -14,9 +15,6 @@ body ::selection {
     padding: 0px;
 }
 
-.img-boxpark-header{
-    background-image: url(../img/boxpark-header-img.jpeg);
-}
 .header-boxpark-title-container{
     display: flex;
     justify-content: flex-start;
@@ -28,42 +26,53 @@ body ::selection {
     color:white;
 }
 .header-item h1 {
-    font-size: 75px;
+    font-size: 4rem;
     width: 100%;
 }
+#h3-boxpark {
+  font-size: 2.5rem;
+}
+
 
 
 /*TRUSTPILOT SECTION */
 .trustpilot-container {
-    box-sizing: border-box;
-    margin: 0;
-    min-width: 0;
-    max-width: 992px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 32px;
-    padding-bottom: 32px;
+    margin: 0 auto;
+    min-width: 300;
+    max-width: 700px;
+    padding: 30px 0;
 }
 .trustpilot-img-container{
+    background-image: url('../img/trustpilot2.png');
+    width: 100%;
+    height: 50px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     margin: 0px
 }
 
-.trustpilot-img-container img{
-    padding-left: 320px;
+
+
+/*MOBILE TRUSTPILOT*/
+@media only screen and (min-width: 320px) and (max-width: 480px), (orientation: portrait){
+  .trustpilot-img-container {
+    width: 90%;
+  }
 }
 
 
 
 
 
-/* FIRST SECTION */
+
+/* FIRST SECTION CARDS */
 
 .first-boxpark-container{
  
    /* border: 1px solid red;*/
     height: 600px;
     width: 100%;
-    
     padding: 20px;
 }
 .first-boxpark-small {
@@ -134,6 +143,17 @@ body ::selection {
     border: 2px solid black;
 
 }
+
+
+/*MOBILE FIRST SECTION CARDS*/
+@media only screen and (min-width: 320px) and (max-width: 480px), (orientation: portrait){
+  .articles-first-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+
 
 
 
@@ -543,13 +563,5 @@ body ::selection {
 }
 
 
-
-/*MOBILE*/
-@media screen and (max-width: 700px, min-width: 600px) {
-
-.header-item h1{
-    font-size: 8px;
-}
-}
 
 

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BOXMad</title>
     <link href="css/styles.css" rel="stylesheet" type="text/css" />
+    <link href="css/contact.css" rel="stylesheet" type="text/css" />
     <link href="css/footer.css" rel="stylesheet" type="text/css" />
     <link href="css/components.css" rel="stylesheet" type="text/css" />
     <link href="css/responsive.css" rel="stylesheet" type="text/css" />
@@ -51,77 +52,89 @@
           <h2>Nosotros estamos felices de oirle</h2>
         </div>
 
-        <div class="row">
-          <form class="contact-form">
-            <div class="row">
-              <div class="col span-1-of-3">
-                <label for="name">Nombre</label>
-              </div>
-              <div class="col span-2-of-3">
-                <input
-                  type="text"
-                  name="name"
-                  id="name"
-                  placeholder="Tu nombre"
-                  required
-                />
-              </div>
+      <!-- formulary -->
+
+      <div class="row">
+        <form class="contact-form">
+          <div class="row">
+            <div class="col span-1">
+              <label for="name">Nombre</label>
             </div>
-            <div class="row">
-              <div class="col span-1-of-3">
-                <label for="email">Email</label>
-              </div>
-              <div class="col span-2-of-3">
-                <input
-                  type="email"
-                  name="email"
-                  id="email"
-                  placeholder="Tu email"
-                  required
-                />
-              </div>
+            <div class="col span-2">
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Tu nombre"
+                required
+              />
             </div>
-            <div class="row">
-              <div class="col span-1-of-3">
-                <label for="find-us">¿Como nos encontraste?</label>
-              </div>
-              <div class="col span-2-of-3">
-                <select name="find-us" id="find-us">
-                  <option value="friends" selected>Amigos</option>
-                  <option value="search">Buscador</option>
-                  <option value="ad">Anuncio publicitario</option>
-                  <option value="other">Otros</option>
-                </select>
-              </div>
+          </div>
+          <div class="row">
+            <div class="col span-1">
+              <label for="email">Email</label>
             </div>
-            <div class="row">
-              <div class="col span-1-of-3">
-                <label for="news">¿Boletin informativo?</label>
-              </div>
-              <div class="col span-2-of-3">
-                <input type="checkbox" name="news" id="news" checked /> Si Por
-                favor
-              </div>
+            <div class="col span-2">
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Tu email"
+                required
+              />
             </div>
-            <div class="row">
-              <div class="col span-1-of-3">
-                <label>Escríbanos</label>
-              </div>
-              <div class="col span-2-of-3">
-                <textarea name="message" placeholder="Tu mensaje"></textarea>
-              </div>
+          </div>
+          <div class="row">
+            <div class="col span-1">
+              <label for="find-us">¿Como nos encontraste?</label>
             </div>
-            <div class="row">
-              <div class="col span-1-of-3">
-                <label>&nbsp;</label>
-              </div>
-              <div class="col span-2-of-3">
-                <input type="submit" value="Enviar" />
-              </div>
+            <div class="col span-2">
+              <select name="find-us" id="find-us">
+                <option value="friends" selected>Amigos</option>
+                <option value="search">Buscador</option>
+                <option value="ad">Anuncio publicitario</option>
+                <option value="other">Otros</option>
+              </select>
             </div>
-          </form>
-        </div>
+          </div>
+          <div class="row">
+            <div class="col span-1">
+              <label for="news">¿Boletin informativo?</label>
+            </div>
+            <div class="col span-2-of-3">
+              <input type="checkbox" name="news" id="news" checked /> Si Por
+              favor
+            </div>
+          </div>
+          <div class="row">
+            <div class="col span-1">
+              <label>Escríbanos</label>
+            </div>
+            <div class="col span-2">
+              <textarea name="message" placeholder="Tu mensaje"></textarea>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col span-1">
+              <label>&nbsp;</label>
+            </div>
+            <div class="col span-2">
+              <input type="submit" value="Enviar" />
+            </div>
+          </div>
+        </form>
       </div>
     </div>
+    <!--footer -->
+
+    <div id="footer-placeholder"></div>
+
+    <!--Estas líneas de código me permiten reusar el código que contiene footer.html-->
+    <script>
+      $(function () {
+        $("#footer-placeholder").load("footer.html");
+      });
+    </script>
+    <!--end of footer -->
   </body>
 </html>
