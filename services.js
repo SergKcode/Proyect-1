@@ -10,9 +10,15 @@ let finalBegPrice=document.getElementById("beg-price");
 let finalIntPrice=document.getElementById("int-price");
 let finalAdvPrice=document.getElementById("adv-price");
 
+let finalPriceContainerBeg=document.getElementById("final-price-beg-container");
+let finalPriceContainerInt=document.getElementById("final-price-int-container");
+let finalPriceContainerAdv=document.getElementById("final-price-adv-container");
+
 
 let surfButton=document.getElementById("surf-btn");
 let climbingButton=document.getElementById("climb-btn");
+
+
 
 surfButton.addEventListener('click', () =>{
     begginerCourse.textContent= "SURF BEGGINER COURSE";
@@ -23,9 +29,19 @@ surfButton.addEventListener('click', () =>{
     firstPriceIntermidium.textContent= "370€";
     firstPriceAdvance.textContent="550€";
 
-    finalBegPrice.textContent="200"
-    finalIntPrice.textContent="315"
-    finalAdvPrice.textContent="440"
+    
+    finalPriceContainerBeg.innerHTML = `
+    <h3 id="beg-price" class="euros-course">200</h3>
+    <span class="logo-act"><i class="fas fa-euro-sign"></i></span>`
+    
+    finalPriceContainerInt.innerHTML = `
+    <h3 id="int-price" class="euros-course">315</h3>
+    <span class="logo-act"><i class="fas fa-euro-sign"></i></span>`
+  
+
+    finalPriceContainerAdv.innerHTML = `
+    <h3 id="adv-price" class="euros-course">440</h3>
+    <span class="logo-act"><i class="fas fa-euro-sign"></i></span>`
     
 })
 climbingButton.addEventListener('click', () =>{
@@ -37,7 +53,18 @@ climbingButton.addEventListener('click', () =>{
     firstPriceIntermidium.textContent= "275€";
     firstPriceAdvance.textContent="350€";
 
-    finalBegPrice.textContent="180";
-    finalIntPrice.textContent="238";
-    finalAdvPrice.textContent="280";
+  
+
+    finalPriceContainerBeg.innerHTML = `
+    <h3 id="beg-price" class="euros-course">180</h3>
+    <span class="logo-act"><i class="fas fa-euro-sign"></i></span>`
+    
+    finalPriceContainerInt.innerHTML = `
+    <h3 id="int-price" class="euros-course">238</h3>
+    <span class="logo-act"><i class="fas fa-euro-sign"></i></span>`
+  
+
+    finalPriceContainerAdv.innerHTML = `
+    <h3 id="adv-price" class="euros-course">280</h3>
+    <span class="logo-act"><i class="fas fa-euro-sign"></i></span>`
 })
