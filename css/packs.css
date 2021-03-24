@@ -277,6 +277,7 @@ video {
     flex-direction: row wrap;
     text-align: center;
     justify-content: center;
+    
 }
 
 .youtube-container img {
@@ -346,6 +347,7 @@ video {
 .youtube-icon-description{
     font-family: "MonserratBold";
     text-shadow: 0px 3px 3px rgba(0,0,0,0.50);
+    padding-left: 30px;
     
 }
 
@@ -359,15 +361,16 @@ video {
 
   padding: 10px;
 }
-.container-row {
-  max-width: 1240px !important;
+.row {
+  max-width: 1500px !important;
+  justify-content: center;
 }
 .course {
   display: flex;
   flex-flow: column wrap;
   justify-content: flex-start;
   align-items: center;
-  width: 20%;
+  width: 100%;
   height: auto;
   box-shadow: 0px 2px 18px 0px rgb(0 0 0 / 30%);
   margin: 30px;
@@ -412,6 +415,7 @@ video {
   width: 90%;
   justify-content: center;
   text-align: center;
+  text-shadow: 4px 4px 0px rgba(0, 0, 0, 0.151);
 }
 
 .line-through {
@@ -456,6 +460,7 @@ video {
 }
 
 .but-book {
+  
   font-family: "MonserratBold";
   width: 200px;
   box-shadow: 0px 2px 18px 0px rgb(0 0 0 / 30%);
@@ -465,18 +470,26 @@ video {
   flex-flow: column wrap;
 }
 .description-course-wrapper {
-  margin: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-bottom: 2px outset rgb(0 0 0 / 30%);
 }
 .description-info {
   padding: 10px;
+  display: flex;
+  flex-direction: row;
+  
+  
 }
 .element-description {
   display: flex;
-  flex-flow: row wrap;
+  flex-direction: row;
   justify-content:flex-start;
   margin: 10px;
-  font-size: 25px;
+  font-size: 20px;
   font-family: "MonserratItalic";
+  margin-bottom: 15px;
+  
 }
 .thumb-green {
   color: yellowgreen;
