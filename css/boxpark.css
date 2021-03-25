@@ -139,9 +139,6 @@ body ::selection {
 #first-section-button:hover{
     background-color: black;
     color:white;
-    width: 200px;
-    height: 20px;
-    padding: 20px;
     border: 2px solid black;
 
 }
