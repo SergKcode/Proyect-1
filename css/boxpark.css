@@ -378,7 +378,9 @@ body ::selection {
     background-image: url('../img/balls.jpg');
     
 }
-
+#testimonial-wrapper{
+  margin-bottom: 110px;
+}
 /*TESTIMONIAL SECTION 2*/
 
 .slider-container{
