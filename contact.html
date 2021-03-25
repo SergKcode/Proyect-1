@@ -1,57 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>BOXMad</title>
-    <link href="css/styles.css" rel="stylesheet" type="text/css" />
-    <link href="css/contact.css" rel="stylesheet" type="text/css" />
-    <link href="css/footer.css" rel="stylesheet" type="text/css" />
-    <link href="css/components.css" rel="stylesheet" type="text/css" />
-    <link href="css/responsive.css" rel="stylesheet" type="text/css" />
 
-    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BOXMad</title>
+  <link href="css/styles.css" rel="stylesheet" type="text/css" />
+  <link href="css/contact.css" rel="stylesheet" type="text/css" />
+  <link href="css/footer.css" rel="stylesheet" type="text/css" />
+  <link href="css/components.css" rel="stylesheet" type="text/css" />
+  <link href="css/responsive.css" rel="stylesheet" type="text/css" />
+  <link rel="icon" type= "image/x-icon" href="img/logoico.ico"/>
 
-    <!--Estos es para los iconos de los socials-->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-  </head>
-  <body>
-    <!-- Manu -->
-    <header class="header-nav">
-      <div clas="nav-logo"><img class="img-nav" src="img/logo-transparent.png"></div>
-      <nav class="nav">
-          <a href="index.html" class="btn-nav">HOME</a>
-          <a href="boxPark.html" class="btn-nav">BOXPARK</a>
-          <a href="packs.html" class="btn-nav">SERVICES</a>
-          <a href="about.html" class="btn-nav">ABOUT US</a>
-          <a href="contact.html" class="btn-nav">CONTACT</a>
-      </nav>
-    </header>
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 
-    <nav class="secundary-nav" role="navigation">
-      <div id="menuToggle">
-        <input type="checkbox" />
-          <span></span>
-          <span></span>
-          <span></span>
-          <ul id="menu">
-            <li><a href="index.html">HOME</a></li>
-            <li><a href="boxPark.html">BOXPARK</a></li>
-            <li><a href="packs.html">SERVICES</a></li>
-            <li><a href="about.html">ABOUT US</a></li>
-            <li><a href="contact.html">CONTACT</a></li>
-          </ul>
-     </div>
+  <!--Estos es para los iconos de los socials-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+
+<body>
+  <!-- Manu -->
+  <header class="header-nav">
+    <div class="nav-logo"><img class="img-nav" src="img/logo-transparent.png"></div>
+    <nav class="nav">
+      <a href="index.html" class="btn-nav">HOME</a>
+      <a href="boxPark.html" class="btn-nav">BOXPARK</a>
+      <a href="packs.html" class="btn-nav">SERVICES</a>
+      <a href="about.html" class="btn-nav">ABOUT US</a>
+      <a href="contact.html" class="btn-nav">CONTACT</a>
     </nav>
-    <div id="aboutContainer">
-      <div class="form-box" id="form">
-        <div class="row">
-          <h2>Nosotros estamos felices de oirle</h2>
-        </div>
+  </header>
+
+  <nav class="secundary-nav" role="navigation">
+    <div id="menuToggle">
+      <input type="checkbox" />
+      <span></span>
+      <span></span>
+      <span></span>
+      <ul id="menu">
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="boxPark.html">BOXPARK</a></li>
+        <li><a href="packs.html">SERVICES</a></li>
+        <li><a href="about.html">ABOUT US</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+      </ul>
+    </div>
+  </nav>
+  <!--container-->
+    <div class="form-box" id="form">
+      <div class="row">
+        <h2>Nosotros estamos felices de oirle</h2>
+      </div>
 
       <!-- formulary -->
 
@@ -62,13 +62,7 @@
               <label for="name">Nombre</label>
             </div>
             <div class="col span-2">
-              <input
-                type="text"
-                name="name"
-                id="name"
-                placeholder="Tu nombre"
-                required
-              />
+              <input type="text" name="name" id="name" placeholder="Tu nombre" required />
             </div>
           </div>
           <div class="row">
@@ -76,13 +70,7 @@
               <label for="email">Email</label>
             </div>
             <div class="col span-2">
-              <input
-                type="email"
-                name="email"
-                id="email"
-                placeholder="Tu email"
-                required
-              />
+              <input type="email" name="email" id="email" placeholder="Tu email" required />
             </div>
           </div>
           <div class="row">
@@ -102,7 +90,7 @@
             <div class="col span-1">
               <label for="news">¿Boletin informativo?</label>
             </div>
-            <div class="col span-2-of-3">
+            <div class="col span-2">
               <input type="checkbox" name="news" id="news" checked /> Si Por
               favor
             </div>
@@ -137,5 +125,6 @@
       });
     </script>
     <!--end of footer -->
-  </body>
+</body>
+
 </html>

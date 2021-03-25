@@ -4,6 +4,10 @@
     font-family: "MonserratFontCustom";
     src: url("fonts/Montserrat/Montserrat-Regular.ttf");
 }
+@font-face{
+    font-family: "Bungee";
+    src: url("fonts/Bungee/Bungee-Regular.ttf");
+}
 
 @font-face{
     font-family: "MonserratBold";
@@ -64,12 +68,13 @@ h2 h1{
 
 /* INICIO ESTILOS CONTENIDO INDEX */
 
-#title-header{
+.title-header{
 
     text-decoration: none;
     justify-content: center;
-    color: #FFFFFF;
+    color: black;
     text-shadow: 0px 2px 2px #333;
+    margin-bottom: 15%;
 }
 
 #title-header:hover{
@@ -125,7 +130,8 @@ a:hover{
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 1300px;
+    /*height: 1300px;*/
+    height:90vh;
     background-image: url("../img/boxPark.jpg");
     margin: 0px;
     justify-content: center;
@@ -137,6 +143,7 @@ a:hover{
     padding: 0px;
 
 }
+/*  
 @keyframes backBanner{
     0%{
         background-position: 0px 0px;
@@ -147,19 +154,19 @@ a:hover{
 
     }
 }
-
+*/
 
 .header-text-container{
     display: flex;
-    font-family: "Rye";
+    font-family: "Bungee";
     transition: all 300ms;
     width: 100%;
     justify-content: center;
-    animation: showText 5s linear;
+    /* animation: showText 5s linear; */
    
 
 }
-@keyframes showText{
+/* @keyframes showText{
     0%{
         transform: translateX(-200%) scale(5,5);
         opacity:1;
@@ -180,7 +187,7 @@ a:hover{
         color:white;
         opacity:1;
     }
-}
+} */
 
 .header-text-container:hover{
     transform: scale(1.15);
@@ -254,7 +261,7 @@ a:hover{
     
 }
 .heading-secondary{
-    font-family: "MonserratBold";
+    font-family: "Bungee";
     color: #000000;
     font-size: 40px;
 
@@ -266,8 +273,9 @@ a:hover{
 .header-nav{
     display: flex;
     width: 100%;
+    height: 10vh;
     flex-flow: row wrap;
-    height: auto;
+    /*height: auto;*/
     align-items: center;
     background:#000000;
     justify-content: space-between;
@@ -275,15 +283,17 @@ a:hover{
 }
 .nav{
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     width:70%;
-    font-family: "Rye";
+    font-family: "Bungee";
     
 }
-
+.nav-logo{
+    height: 100%;
+}
 .img-nav{
-    height: 150px;
-    margin-left: 10px;
+    height: 100%;
+    margin-left: 10%;
 
 }
   
@@ -303,7 +313,8 @@ a:hover{
     border-radius: 15px;
     background:rgba(0, 0, 0, 0.4);
     background:#fff;
-    padding:20px 20px; 
+    /*padding:20px 20px;*/ 
     color:#1b1b1b;
+    transition: background-color 0.5s;
   }
 

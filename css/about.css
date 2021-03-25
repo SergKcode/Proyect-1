@@ -40,10 +40,10 @@ h2:first-child {
   /*didn't find another solution than mask the underline shape by a box shadow with the same color than the bg*/
   box-shadow: inset 0 -0.5em 0 0 white;
 }
-.underlined--gradient {
+/*.underlined--gradient {
   background-position: 0 -0.1em;
   background-image: linear-gradient(to right, yellow 0, lightgreen 100%);
-}
+}*/
 .underlined--reverse {
   background-position: 100% -0.1em;
   transition: background 1s; /*yep, that's a long link*/
@@ -58,67 +58,9 @@ h2:first-child {
   text-align: justify;
 }
 
-/*.row {
-    display: flex;
-    max-width: 1140px;
-    margin: 0 auto;
-    justify-content: center;
-    flex-direction: column;
-}*/
-
-/*car
-Thanks to https://3dtransforms.desandro.com/card-flip
-.contentcard {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background: blue;
+/* Small phones to small tablets: from 481px to 767px */
+@media only screen and (max-width: 767px) {
+  h1 { font-size: 180%; }
+  h2 { font-size: 150%; }
+  
 }
-
-.scene {
-  width: 1000px;
-  display: flex;
-  justify-content: space-between;
-  perspective: 800px;
-  flex-direction: column;
-}
-  .card {
-    position: relative;
-    width: 100%;
-    height: 300px;
-    color: white;
-    cursor: pointer;
-    transition: 1s ease-in-out;
-    transform-style: preserve-3d;
-  }
-  .card:hover {
-      transform: rotateY(0.5turn);
-    }
-
-    .card__face {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      backface-visibility: hidden;
-      transition: 1s ease-in-out;
-      -webkit-box-reflect: below 0
-        linear-gradient(transparent, transparent, rgba(0, 0, 0, 0.4));
-    }
-    #imagecard {
-        width: 240px;
-        height: 300px;
-        object-fit: cover;
-      }
-
-      .card__face--back {
-        transform: rotateY(0.5turn);
-      }
-    
-      .texto-encima{
-        position: absolute;
-        top: 10px;
-        left: 10px;
-*/

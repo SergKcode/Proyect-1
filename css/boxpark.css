@@ -78,7 +78,7 @@ body ::selection {
 .articles-first-container{
     display: flex;
     justify-content: space-around;
-    flex: wrap;
+    flex-flow: row wrap;
     margin: 0 auto;
     /*border: 1px solid yellow;*/
     width: 90%;
@@ -86,26 +86,26 @@ body ::selection {
 }
 
 .article-first {
-    width: 100%;
+    
     padding-right: 10px;
     padding-left: 10px;
-    height: 500px;
-    width: 330px;
+    height: 100%;
+    width: 27%;
     padding-right: 10px;
-    display: inline-block;
+    margin: 30px;
     /*border: 1px solid black;*/
 }
 #article-img-first1 {
-  height: 300px;
-  width: 330px;
+  height: 527px;
+  width: 100%;
 }
 #article-img-first2 {
-  height: 300px;
-  width: 330px;
+  height: 527px;
+  width: 100%;
 }
 #article-img-first3 {
-  height: 300px;
-  width: 330px;
+  height: 527px;
+  width:100%;
 }
 .article-first-body {
     margin-bottom: 19px;
@@ -117,7 +117,7 @@ body ::selection {
 
 .article-first-text{
     padding: 10px;
-    width: 260px;
+    width: 100%;
     margin: 0 auto;
     text-align: center;
 }
@@ -130,8 +130,8 @@ body ::selection {
 }
 #first-section-button{
     background-color: #7289DA;
-    width: 200px;
-    height: 20px;
+    width: 80%;
+    height: 100%;
     padding: 20px;
     border: 2px solid black;
 
@@ -148,8 +148,42 @@ body ::selection {
 
 
 
+@media only screen and (max-width: 1316px) {
+  
+  .articles-first-container{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin: 0 auto;
+    /*border: 1px solid yellow;*/
+    width: 100%;
+    }
 
+    .article-first {
+      width: 60%;
+      padding-right: 10px;
+      padding-left: 10px;
+      height: 100%;
+      
+      padding-right: 10px;
+      margin: 30px;
+      /*border: 1px solid black;*/
+  }
 
+    #article-img-first1 {
+      height: 100%;
+      
+    }
+    #article-img-first2 {
+      height: 100%;
+     
+    }
+    #article-img-first3 {
+      height: 100%;
+    }
+      
+
+}
 
 
 
@@ -158,33 +192,35 @@ body ::selection {
 
 .second-container {
     width: 100%;
-    height: 410px;
+    height: 500px;
 }
 
 .second-container-small {
     margin: 0 auto;
     height: 90%;
-    width: 70%;
+    width: 80%;
     display: flex;
-    flex: row wrap;
+    flex-direction: row;
     justify-content: space-evenly;
+    padding: 10px;
 }
 
 .second-container-left {
     height: 100%;
-    width: 400px;
+    width: 40%;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     padding: 0px;
     background-image: url('../img/bar2.jpg');
+    margin-left: 10px;
 }
 
 .second-container-right {
     height: 100%;
-    width: 300px;
+    width: 50%;
     height: 100%;
-    padding: 0px;
+    padding: 30px;
 }
 
 .learn-more {
@@ -194,6 +230,30 @@ body ::selection {
 .learn-more:hover{
     color: #7289DA ;
 }
+
+@media only screen and (max-width: 903px) {
+  
+  .second-container-small{
+    
+    flex-direction: column;
+    
+  } 
+
+  .second-container-left {
+    width: 100%;
+    height: 800px;
+  }  
+
+  .second-container-right {
+      width: 100%;
+  }
+  .second-container {
+    width: 100%;
+    height: 800px;
+}
+
+}
+
 
 
 /*STRIP SECTION*/
@@ -265,6 +325,22 @@ body ::selection {
  color: white;
 }
 
+#button-fun{
+  
+  padding: 10px;
+}
+@media only screen and (max-width: 863px) {
+  
+  #heading-secondary-fun{
+    font-size: 1.7em;
+    
+  } 
+
+  
+
+}
+
+
 /*TESTIMONIAL SECTION*/
 
 .img-boxpark-testimonial{
@@ -277,6 +353,10 @@ body ::selection {
 .slider-container{
     background-color: #213852;
     width: 100%;
+<<<<<<< HEAD
+=======
+    height: 50vh;
+>>>>>>> 96c52c2bbfd7783f520e93c28a1aa27ea6288e5e
     display: flex;
     flex-direction: column;
 }
@@ -297,7 +377,7 @@ body ::selection {
     font-size: 20px;
 }
 #slider-container-small {
-    height: 300px;
+    height: 20vh;
     width: 85vw;
     max-width: 1400px;
     position: relative;
@@ -462,6 +542,26 @@ body ::selection {
     #slider-container-small #slider .slide {
       width: calc(10% - 20px);
     }
+  
+  }
+
+  @media only screen and (max-width: 692px) {
+  
+    .slider-title{
+      font-size: 0.9em;
+    }
+    .slider-container{
+      height: 56vh;
+  }
+  
+  }
+
+  @media only screen and (max-width: 471px) {
+  
+    .slider-title{
+      font-size: 0.7em;
+    }
+    
   
   }
 

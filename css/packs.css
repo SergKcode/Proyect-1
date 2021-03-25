@@ -114,20 +114,7 @@ video {
 }
 
 /* NAV */
-#header {
-  margin: 0px;
-  width: 100%;
-}
 
-.navList {
-  display: flex;
-  justify-content: space-around;
-  width: 100%;
-  background: #000000;
-  padding: 7px;
-  height: 70px;
-  list-style: none;
-}
 
 .main-activity {
   display: flex;
@@ -154,12 +141,8 @@ video {
   padding-right: 10px;
 }
 
-.navA {
-  color: #cccccc;
-  text-decoration: none;
-}
 
-/* FIN NAV */
+
 /* CONTENIDO */
 
 /* ----------------ESTILOS PACK-CURSOS------------- */
@@ -167,7 +150,7 @@ video {
   display: flex;
   align-items: center;
   width: 100%;
-  height: 1000px;
+  height: 90vh;
   background-image: url("../img/skate.jpg");
   margin: 0px;
   justify-content: center;
@@ -186,7 +169,10 @@ video {
   justify-content: center;
   margin-top: 40px;
 }
-
+#title-services-container > a{
+  color: #ffffff;
+  text-decoration: none;
+}
 .optional-activities {
   display: flex;
   flex-direction: row wrap;
@@ -241,7 +227,7 @@ video {
   color: #000000;
   background-color: #ffffff;
   border: none;
-  font-family: "MonserratBold";
+  font-family: "Bungee";
   transition: all 500ms;
   margin: 3px;
 }
@@ -260,6 +246,13 @@ video {
   min-height: 900px;
   margin-top: 50px;
   margin-bottom: 50px;
+}
+
+.card-block h4{
+  font-family: "Bungee";
+}
+.list-group-flush>.list-group-item {
+  border: none;
 }
 .youtube-container {
   display: flex;
@@ -410,7 +403,7 @@ video {
 }
 
 .title-course {
-  font-family: "MonserratBold";
+  font-family: "Bungee";
   font-size: 20px;
   width: 90%;
   justify-content: center;
