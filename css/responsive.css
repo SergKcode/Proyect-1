@@ -46,8 +46,7 @@
     }
     
 }
-
-@media (max-width: 1196px) {
+@media (max-width: 1063px) {
     .btn-nav{
         font-size:0.9em;
       
@@ -55,6 +54,7 @@
     }
     
 }
+
 
 
 @media (max-width: 1017px) {
@@ -68,11 +68,7 @@
         background:rgb(4, 221, 4);
     }
 
-    .btn-nav{
-        font-size:0.8em;
-      
-      
-    }
+    
     .nav{
   
         width:80%;
@@ -113,6 +109,14 @@
     
 }
     
+@media (max-width: 889px) {
+   
+    .btn-nav{
+        font-size:0.8em;
+      
+      
+    }
+}
 
 
 @media (max-width: 869px) {
