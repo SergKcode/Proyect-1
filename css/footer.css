@@ -33,12 +33,14 @@ footer{
   
   .title-footer-section{
     text-decoration: underline;
+    font-family: "Bungee";
     
   }
   
   
-  #footer-links:hover{
+  #footer-links:hover {
     color: #7289DA;
+    transform: scale(1.5);
   }
   .right-article-item {
     padding: 3px 2px;
