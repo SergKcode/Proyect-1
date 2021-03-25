@@ -225,7 +225,6 @@ body ::selection {
 
 .learn-more {
     color: black;
-    border-bottom: 2px solid  black;
 }
 
 .learn-more:hover{
@@ -259,7 +258,7 @@ body ::selection {
 
 /*STRIP SECTION*/
 .strip-container{
-    background-color: #E8E3D9;
+    background-color: white;
     width: 100%;
     height: 300px;
     display: flex;
@@ -308,14 +307,22 @@ body ::selection {
 }
 
 .logo-article-logo {
-    height: 50%;
+  height: 100px;
+  width: 300px;
+  background-image: url(../img/);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 #logo-logo-section {
-    padding: 30px;
-    color:black;
-    height: 30px;
-  
+   padding: 30px;
+   color:black;
+   height: 30px;
+ 
+}
+.fa .fa-cutlery{
+ color: white;
 }
 
 #button-fun{
@@ -346,7 +353,10 @@ body ::selection {
 .slider-container{
     background-color: #213852;
     width: 100%;
+<<<<<<< HEAD
+=======
     height: 50vh;
+>>>>>>> 96c52c2bbfd7783f520e93c28a1aa27ea6288e5e
     display: flex;
     flex-direction: column;
 }

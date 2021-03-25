@@ -639,11 +639,7 @@
     <div id="footer-placeholder"></div>
 
     <!--Estas líneas de código me permiten reusar el código que contiene footer.html-->
-    <script>
-      $(function () {
-        $("#footer-placeholder").load("footer.html");
-      });
-    </script>
+    
     <!--end of footer -->
     <script
       src="https://kit.fontawesome.com/6945a766f6.js"
@@ -655,5 +651,10 @@
       crossorigin="anonymous"
     ></script>
     <script src="services.js"></script>
+    <script>
+      $(function(){
+        $("#footer-placeholder").load("footer.html");
+      });
+    </script>
   </body>
 </html>
