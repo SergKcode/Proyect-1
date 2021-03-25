@@ -6,13 +6,13 @@
 /* PACK CARDS */
 .h5-pack-card{
   margin:0px;
-  font-size:1.4em;
+  font-size:1.3em;
   font-weight:700;
-  font-family: "MonserratBold";
+  font-family: "Bungee";
 }
 
 .p-pack-card{
-  font-size:12px;
+  font-size:0.8em;
   padding: 10px;
   font-family: "MonserratItalic";
 }
@@ -275,8 +275,8 @@
 #menu
 {
   position: absolute;
-  width: 180px;
-  height: 400px;
+  width: 100vh;
+  height: 100vh;
   box-shadow: 0 0 10px #85888C;
   margin: -50px 0 0 -50px;
   padding: 50px;
@@ -296,7 +296,7 @@
 }
 #menu li a{
   text-decoration: none;
-  font-family: "Rye";
+  font-family: "Bungee";
   color: #000;
 }
 #menu li:hover a{
