@@ -353,10 +353,6 @@ body ::selection {
 .slider-container{
     background-color: #213852;
     width: 100%;
-<<<<<<< HEAD
-=======
-    height: 50vh;
->>>>>>> 96c52c2bbfd7783f520e93c28a1aa27ea6288e5e
     display: flex;
     flex-direction: column;
 }
@@ -551,7 +547,6 @@ body ::selection {
       font-size: 0.9em;
     }
     .slider-container{
-      height: 56vh;
   }
   
   }
