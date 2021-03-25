@@ -258,12 +258,12 @@ body ::selection {
 .strip-container{
     background-color: white !important;
     width: 100%;
-    height: 300px;
+    height: auto;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 .strip-container-small {
-    margin: 0 auto;
     height: 90%;
     width: 80%;
  
@@ -279,13 +279,21 @@ body ::selection {
 }
 
 .logo-article-body{
-    width: 330px;
-    height: 180px;
+  display: flex;
+  flex-direction:column ;
+  width: 100%;
+  height: 180px;
+  justify-content: center;
+  text-align: center;
+  margin: 20px;
+  
+
 
 }
 
 .small-container-button{
     text-align: center;
+    margin-top:10px;
     
 }
 #strip-button {
@@ -307,10 +315,11 @@ body ::selection {
 
 .logo-article-logo {
   height: 100px;
-  width: 300px;
+  width: 100%;
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
+  
 }
 
 #logo-strip1{
@@ -346,6 +355,21 @@ body ::selection {
   
 
 }
+@media only screen and (max-width: 583px) {
+  
+  .small-container-logos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  } 
+
+  #strip-logos-try-container{
+    height: 100%;
+  }
+
+}
+
 
 
 /*TESTIMONIAL SECTION*/
