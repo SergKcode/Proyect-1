@@ -6,7 +6,7 @@ body ::selection {
     color:white;
 }
 .header-boxpark-container{
-  background-image: url(../img/boxpark-header-img.jpeg);
+   background-image: url(../img/boxpark-header-img.jpeg);
     height: 100%;
     background-size: cover;
     background-position: center;
@@ -18,7 +18,7 @@ body ::selection {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    height: 500px;
+    height: 700px;
 }
 
 .header-item {
@@ -52,13 +52,6 @@ body ::selection {
 }
 
 
-
-/*MOBILE TRUSTPILOT*/
-@media only screen and (min-width: 320px) and (max-width: 480px), (orientation: portrait){
-  .trustpilot-img-container {
-    width: 90%;
-  }
-}
 
 
 
@@ -102,6 +95,18 @@ body ::selection {
     display: inline-block;
     /*border: 1px solid black;*/
 }
+#article-img-first1 {
+  height: 300px;
+  width: 330px;
+}
+#article-img-first2 {
+  height: 300px;
+  width: 330px;
+}
+#article-img-first3 {
+  height: 300px;
+  width: 330px;
+}
 .article-first-body {
     margin-bottom: 19px;
 }
@@ -142,13 +147,7 @@ body ::selection {
 }
 
 
-/*MOBILE FIRST SECTION CARDS*/
-@media only screen and (min-width: 320px) and (max-width: 480px), (orientation: portrait){
-  .articles-first-container {
-    display: flex;
-    flex-direction: column;
-  }
-}
+
 
 
 
@@ -167,14 +166,13 @@ body ::selection {
     height: 90%;
     width: 70%;
     display: flex;
-    flex-direction: row;
+    flex: row wrap;
     justify-content: space-evenly;
 }
 
 .second-container-left {
     height: 100%;
-    width: 50%;
-    height: 100%;
+    width: 400px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -184,7 +182,7 @@ body ::selection {
 
 .second-container-right {
     height: 100%;
-    width: 40%;
+    width: 300px;
     height: 100%;
     padding: 0px;
 }
@@ -537,30 +535,79 @@ body ::selection {
 }
 
 
-/*Articles container*/
-.articles-container {
+/*MOBILE TRUSTPILOT*/
+
+@media (max-width: 1212px) {
+   
+  
+}
+
+@media (max-width: 1040px) {
+ 
+ 
+}
+@media (max-width: 1017px) {
+ 
+
+  
+}
+
+@media (max-width: 971px) {
+
+}
+  
+
+
+@media (max-width: 869px) {
+ 
+ 
+
+@media (max-width: 633px) {
+  .trustpilot-img-container{
+    background-image: url(../img/trustpilot3.png);
+    width: 70%;
+    height: 50px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0px auto;
+  }
+}
+
+
+@media (max-width: 576px) {
+
+}
+@media (max-width: 512px) {
+  .articles-first-container {
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;
-    /*border: 4px solid red;*/
-    height: 700px;
-    width: 90%;
-    margin: auto;
-    padding: 20px;
-    margin-bottom: 80px
-}
-.article{
-    width: 100%;
-    padding-right: 10px;
-    padding-left: 10px;
-    height: 600px;
-    width: 250px;
-    padding-right: 10px;
-    display: inline-block;
+    flex-direction: column;
+  }
+
 }
 
+@media (max-width: 441px) {
+  .trustpilot-img-container{
+    width: 60%;
+    background-size: contain;
 
+  }
+}
 
+@media (max-width: 380px) {
+  .trustpilot-img-container{
+  }
+  .first-boxpark-container{
+    padding: 0px;
 
+  }
+ .first-boxpark-small {
+     width: 100%;
+     /*border: 1px solid green;*/
+     height: 100%;
+
+ }
+ .articles-first-container{
+   width: 80%;
+ }
+}

@@ -7,6 +7,9 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css" />
     <link href="css/boxpark.css" rel="stylesheet" type="text/css" />
     <link href="css/footer.css" rel="stylesheet" type="text/css" />
+    <link href="css/components.css" rel="stylesheet" type="text/css" />
+    <link href="css/responsive.css" rel="stylesheet" type="text/css" />
+
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
     <link
       rel="stylesheet"
@@ -19,16 +22,31 @@
   <body>
     <!-- Manu -->
     <header class="header-nav">
-      <div clas="nav-logo"><img class="img-nav" src="img/logo-transparent.png"></div>
+      <div clas="nav-logo">
+        <img class="img-nav" src="img/logo-transparent.png" />
+      </div>
       <nav class="nav">
-          <a href="index.html" class="btn-nav">HOME</a>
-          <a href="boxPark.html" class="btn-nav">BOXPARK</a>
-          <a href="packs.html" class="btn-nav">SERVICES</a>
-          <a href="about.html" class="btn-nav">ABOUT US</a>
-          <a href="contact.html" class="btn-nav">CONTACT</a>
+        <a href="index.html" class="btn-nav">HOME</a>
+        <a href="boxPark.html" class="btn-nav">BOXPARK</a>
+        <a href="packs.html" class="btn-nav">SERVICES</a>
+        <a href="about.html" class="btn-nav">ABOUT US</a>
+        <a href="contact.html" class="btn-nav">CONTACT</a>
       </nav>
     </header>
-    
+    <nav class="secundary-nav" role="navigation">
+      <div id="menuToggle">
+        <input type="checkbox" />
+          <span></span>
+          <span></span>
+          <span></span>
+          <ul id="menu">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Info</a></li>
+              <li><a href="#">Contact</a></li>
+          </ul>
+     </div>
+    </nav>
     <!--JAVI BELOW-->
     <!--Header of boxpark-->
     <div class="header-boxpark-container img-boxpark-header">
@@ -58,7 +76,7 @@
               alt="100%x200"
               src="img/paintball.jpg"
               data-holder-rendered="true"
-              style="height: 300px; width: 330px; display: block"
+              id="article-img-first1"
             />
             <div class="article-first-first-body">
               <h3 class="article-first-title">EXPLORE THE PACKS</h3>
@@ -77,7 +95,7 @@
               alt="100%x200"
               src="img/ThemePark.jpg"
               data-holder-rendered="true"
-              style="height: 300px; width: 330px; display: block"
+              id="article-img-first2"
             />
             <div class="article-first-body">
               <h3 class="article-first-title">LEVEL UP YOUR LUNCHES</h3>
@@ -96,7 +114,7 @@
               alt="100%x200"
               src="img/bar3.jpg"
               data-holder-rendered="true"
-              style="height: 300px; width: 330px; display: block"
+              id="article-img-first3"
             />
             <div class="article-first-first-body">
               <h3 class="article-first-title">TAKE OUR QUIZ</h3>
