@@ -4,6 +4,10 @@
 }*/
 .wrap {
   padding: 1% 9%;
+  margin-bottom: 6vh;
+}
+#bunge-title{
+  font-family:"Bungee";
 }
 h2 {
   margin-top: 3em;

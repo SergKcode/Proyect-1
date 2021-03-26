@@ -1,3 +1,14 @@
+#form{
+    margin: 20px;
+    font-weight: bold;
+}
+
+
+
+
+#bunge-title{
+    font-family:"Bungee";
+}
 /*tag*/
 .span-1 {
     width: 32.26%;
@@ -16,15 +27,15 @@
 
 .rows {
     display: flex;
-    max-width: 1140px;
+    max-width: 94%;
     margin: 0 auto;
     justify-content: center;
     align-items: center;
 }
 
 .contact-form {
-    width: 90%;
-    margin: 2vh auto;
+    width: 100%;
+    margin: 6vh auto;
 }
 
 input[type=text],

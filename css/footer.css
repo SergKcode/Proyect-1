@@ -34,6 +34,7 @@ footer{
   .title-footer-section{
     text-decoration: underline;
     font-family: "Bungee";
+    margin-bottom: 5px;
     
   }
   
@@ -45,6 +46,8 @@ footer{
   .right-article-item {
     padding: 3px 2px;
     max-width: 200px;
+    display: flex;
+    flex-direction: row;
   }
   
   
