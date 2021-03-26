@@ -34,14 +34,24 @@ footer{
   .title-footer-section{
     text-decoration: underline;
     font-family: "Bungee";
-    margin-bottom: 5px;
-    
+    margin-bottom: 5px; 
   }
   
-  
+  #footer-links{
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: black ;
+  }
   #footer-links:hover {
     color: #7289DA;
     transform: scale(1.5);
+    text-decoration: underline;
+    text-decoration-color: black ;
+  }
+  #footer-links:visited{
+    text-decoration: underline;
+    text-decoration-color: black ;
+    color: white;
   }
   .right-article-item {
     padding: 3px 2px;
